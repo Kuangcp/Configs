@@ -63,7 +63,7 @@ alias Kg.images='cd ~/Pictures/ImageRepos' # 图片仓库
 alias Kg.notes='cd ~/Documents/Notes/Notes/' # 笔记仓库
 alias Kg.diary='cd ~/Documents/Notes/diary/' # 个人日记目录
 alias Kg.io='cd ~/Documents/Notes/Kuangcp.github.io/' # github io 项目
-alias Kg.apps='cd ~/Documents/Notes/Apps' # 小工具
+alias Kg.config='cd ~/Documents/Notes/Configs' # 小工具
 
 
 # Directory
