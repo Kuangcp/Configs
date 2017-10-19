@@ -1,0 +1,5 @@
+[user]
+	email = kuang.myth@foxmail.com
+	name = mythos
+[http]
+	postBuffer = 52428800

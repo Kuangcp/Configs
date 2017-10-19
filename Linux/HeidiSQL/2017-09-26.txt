@@ -1,0 +1,140 @@
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_connform.ListSessions<|||>1<|||>0,0
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColsVisible_connform.ListSessions<|||>1<|||>0
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,53
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,215
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,162
+ColWidths_MainForm.ListStatus<|||>1<|||>160,275,100,100
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,275
+CoolBand0Break<|||>3<|||>1
+CoolBand0Index<|||>3<|||>0
+CoolBand0Width<|||>3<|||>938
+CoolBand1Break<|||>3<|||>1
+CoolBand1Index<|||>3<|||>1
+CoolBand1Width<|||>3<|||>938
+DoUsageStatistics<|||>3<|||>1
+FieldEditor_Set<|||>3<|||>1
+FileDialogEncoding_MainForm<|||>3<|||>0
+FontSize<|||>3<|||>11
+GUIFontName<|||>1<|||>Consolas
+GUIFontSize<|||>3<|||>11
+LastActiveSession<|||>1<|||>mysql
+LastSessions<|||>1<|||>mysql
+LastUsageStatisticCall<|||>1<|||>2017-09-26 10:26:17
+LineBreakStyle<|||>3<|||>1
+MainWinOnMonitor<|||>3<|||>0
+SQL Attr Comment Background<|||>3<|||>536870911
+SQL Attr Comment Foreground<|||>3<|||>8421504
+SQL Attr Comment Style<|||>3<|||>2
+SQL Attr ConditionalComment Background<|||>3<|||>536870911
+SQL Attr ConditionalComment Foreground<|||>3<|||>8421504
+SQL Attr ConditionalComment Style<|||>3<|||>2
+SQL Attr DataType Background<|||>3<|||>536870911
+SQL Attr DataType Foreground<|||>3<|||>128
+SQL Attr DataType Style<|||>3<|||>1
+SQL Attr DefaultPackages Background<|||>3<|||>536870911
+SQL Attr DefaultPackages Foreground<|||>3<|||>536870911
+SQL Attr DefaultPackages Style<|||>3<|||>1
+SQL Attr DelimitedIdentifier Background<|||>3<|||>536870911
+SQL Attr DelimitedIdentifier Foreground<|||>3<|||>32896
+SQL Attr DelimitedIdentifier Style<|||>3<|||>0
+SQL Attr Exception Background<|||>3<|||>536870911
+SQL Attr Exception Foreground<|||>3<|||>536870911
+SQL Attr Exception Style<|||>3<|||>2
+SQL Attr Function Background<|||>3<|||>536870911
+SQL Attr Function Foreground<|||>3<|||>8388608
+SQL Attr Function Style<|||>3<|||>1
+SQL Attr Identifier Background<|||>3<|||>536870911
+SQL Attr Identifier Foreground<|||>3<|||>32896
+SQL Attr Identifier Style<|||>3<|||>0
+SQL Attr Number Background<|||>3<|||>536870911
+SQL Attr Number Foreground<|||>3<|||>8388736
+SQL Attr Number Style<|||>3<|||>0
+SQL Attr PLSQL-ReservedWord Background<|||>3<|||>536870911
+SQL Attr PLSQL-ReservedWord Foreground<|||>3<|||>536870911
+SQL Attr PLSQL-ReservedWord Style<|||>3<|||>1
+SQL Attr ProcName Background<|||>3<|||>536870911
+SQL Attr ProcName Foreground<|||>3<|||>536870911
+SQL Attr ProcName Style<|||>3<|||>0
+SQL Attr ReservedWord Background<|||>3<|||>536870911
+SQL Attr ReservedWord Foreground<|||>3<|||>16711680
+SQL Attr ReservedWord Style<|||>3<|||>1
+SQL Attr Space Background<|||>3<|||>536870911
+SQL Attr Space Foreground<|||>3<|||>536870911
+SQL Attr Space Style<|||>3<|||>0
+SQL Attr SQLPlus-Command Background<|||>3<|||>536870911
+SQL Attr SQLPlus-Command Foreground<|||>3<|||>536870911
+SQL Attr SQLPlus-Command Style<|||>3<|||>1
+SQL Attr String Background<|||>3<|||>536870911
+SQL Attr String Foreground<|||>3<|||>32768
+SQL Attr String Style<|||>3<|||>0
+SQL Attr Symbol Background<|||>3<|||>536870911
+SQL Attr Symbol Foreground<|||>3<|||>16711680
+SQL Attr Symbol Style<|||>3<|||>0
+SQL Attr TableName Background<|||>3<|||>536870911
+SQL Attr TableName Foreground<|||>3<|||>16711935
+SQL Attr TableName Style<|||>3<|||>0
+SQL Attr Variable Background<|||>3<|||>536870911
+SQL Attr Variable Foreground<|||>3<|||>8388736
+SQL Attr Variable Style<|||>3<|||>0
+SQLFile0<|||>1<|||>Y:\Code\sql\weixin\define.sql
+TabsToSpaces<|||>3<|||>1
+TabWidth<|||>3<|||>4
+Updatecheck<|||>3<|||>1
+UpdatecheckLastrun<|||>1<|||>2017-09-26 10:26:16
+Servers\mysql\Comment<|||>1<|||>
+Servers\mysql\Compressed<|||>3<|||>0
+Servers\mysql\ConnectCount<|||>3<|||>3
+Servers\mysql\Databases<|||>1<|||>
+Servers\mysql\FullTableStatus<|||>3<|||>1
+Servers\mysql\Host<|||>1<|||>127.0.0.1
+Servers\mysql\KeepAlive<|||>3<|||>0
+Servers\mysql\LastConnect<|||>1<|||>2017-09-26 10:30:54
+Servers\mysql\lastUsedDB<|||>1<|||>
+Servers\mysql\LocalTimeZone<|||>3<|||>0
+Servers\mysql\LoginPrompt<|||>3<|||>0
+Servers\mysql\NetType<|||>3<|||>0
+Servers\mysql\Password<|||>1<|||>6A6D9
+Servers\mysql\Port<|||>1<|||>3306
+Servers\mysql\QueryTimeout<|||>3<|||>0
+Servers\mysql\RefusedCount<|||>3<|||>2
+Servers\mysql\ServerVersion<|||>3<|||>50717
+Servers\mysql\ServerVersionFull<|||>1<|||>5.7.17-1 - (Debian)
+Servers\mysql\SessionCreated<|||>1<|||>2017-09-26 10:26:21
+Servers\mysql\SSHtunnelHost<|||>1<|||>
+Servers\mysql\SSHtunnelHostPort<|||>3<|||>0
+Servers\mysql\SSHtunnelPassword<|||>1<|||>8
+Servers\mysql\SSHtunnelPort<|||>3<|||>3307
+Servers\mysql\SSHtunnelPrivateKey<|||>1<|||>
+Servers\mysql\SSHtunnelTimeout<|||>3<|||>4
+Servers\mysql\SSHtunnelUser<|||>1<|||>
+Servers\mysql\SSL_Active<|||>3<|||>0
+Servers\mysql\SSL_CA<|||>1<|||>
+Servers\mysql\SSL_Cert<|||>1<|||>
+Servers\mysql\SSL_Cipher<|||>1<|||>
+Servers\mysql\SSL_Key<|||>1<|||>
+Servers\mysql\StartupScriptFilename<|||>1<|||>
+Servers\mysql\TreeBackground<|||>3<|||>16777215
+Servers\mysql\User<|||>1<|||>myth
+Servers\mysql\WindowsAuth<|||>3<|||>0
+Servers\mysql\QueryHistory\1<|||>1<|||>2017-09-26 10:33:29|weixin|240|create table goods(<{{{><}}}>    id bigint primary key auto_increment , <{{{><}}}>	name varchar(20) comment '商品名',<{{{><}}}>	origin_image varchar(20) comment '商品原图 七牛云',<{{{><}}}>	image varchar(30) comment '商品展示图片 七牛云',<{{{><}}}>	origin_price float(4,2) comment '原始价格', <{{{><}}}>	discount float(4,2) comment '优惠券面值',<{{{><}}}>	link varchar(20) comment '商品链接 读取二维码得到', <{{{><}}}>	main_key varchar(20) comment '优惠序列码',<{{{><}}}>	recommend varchar(60) comment '编辑推荐',<{{{><}}}>	already_buy int comment '已买人数',<{{{><}}}>	details varchar(40) comment '淘宝优惠详情页' <{{{><}}}>);<{{{><}}}>

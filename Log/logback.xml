@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--控制台-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoder 默认配置为PatternLayoutEncoder -->
+        <!--控制台简化 INFO 输出-->
+
+        <!--<encoder>-->
+        <!--&lt;!&ndash;<pattern>%d{MM-dd HH:mm:ss.SSS} | %thread |-%-5level %logger{36}:%L - %msg%n</pattern>&ndash;&gt;-->
+        <!--<pattern>%d{MM-dd HH:mm:ss.SSS} |-%-5level %logger{36}:%L - %msg%n</pattern>-->
+        <!--</encoder>-->
+        <!--<filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
+        <!--<level>INFO</level>-->
+        <!--</filter>-->
+
+        <!-- DEBUG输出 -->
+        <encoder>
+            <pattern>%d{MM-dd HH:mm:ss.SSS} | %thread |-%-5level %logger{36}:%L - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>DEBUG</level>
+        </filter>
+    </appender>
+    <!-- debug -->
+    <appender name="DEBUG" class="ch.qos.logback.core.FileAppender">
+        <file>./logs/debug.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{MM-dd HH:mm:ss.SSS} | %thread |-%-5level %logger{36}:%L - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>DEBUG</level>
+        </filter>
+    </appender>
+    <!--info-->
+    <appender name="INFO" class="ch.qos.logback.core.FileAppender">
+        <file>./logs/info.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{MM-dd HH:mm:ss.SSS} |-%-5level %logger{36}:%L - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+
+    <!-- error -->
+    <appender name="ERROR" class="ch.qos.logback.core.FileAppender">
+        <File>./logs/error.log</File>
+        <Append>true</Append>
+        <encoder>
+            <pattern>%d{MM-dd HH:mm:ss.SSS} | %thread |-%-5level %logger{36}:%L - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+    </appender>
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="DEBUG" />
+        <appender-ref ref="ERROR"/>
+        <appender-ref ref="INFO"/>
+    </root>
+</configuration>
