@@ -34,18 +34,23 @@ alias ng='/home/kcp/Application/Net/Ngrok/ngrok' # ngrok
 alias gy='groovy' # groovy简写
 alias py='python3.5m' # python3.5m 简写
 alias py2='python' # python2 简写
+alias bell='sudo rmmod pcspkr' # 临时关闭终端响铃
+
+# GIT_CMD
 alias gs='git status' # git status 
 alias ga='git add *' # git add *
 alias gb='git branch' # git branch
 alias gm='git commit' # git commit  
+alias gme='git merge --no-ff ' # git merge --no-ff 简写
 alias gp='git push' # git push
+alias gpl='git pull' # git pull 
 alias gd='git diff' # git diff
 alias gch='git checkout' # git checkout
-alias glog='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short' # git log的格式化输出
-alias bell='sudo rmmod pcspkr' # 临时关闭终端响铃
+alias glog='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short' # glog format own define
 
 
-#  Git
+
+#  Git_REPOS
 ## Git__Java
 alias Kg.redis='cd ~/IdeaProjects/BaseLearn/MythRedisClient/' # Redis客户端项目
 alias Kg.javatoolkit='cd ~/IdeaProjects/BaseLearn/JavaToolKit/' # Java工具包项目
