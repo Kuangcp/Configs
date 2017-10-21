@@ -122,7 +122,7 @@ PS1="${lightcyan}\t ${lightgreen}\w ${yellow}→ ${nocolor}"
 
 
 ## export只是当前终端有效，刷新这个文件就生效了，要删除的话，就要重新打开终端才会生效
-JAVA_HOME=/home/kcp/Application/sdk/jdk1.8.0_131
+JAVA_HOME=/home/kcp/Application/sdk/jdk1.8.0_152
 export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
 export PATH=${JAVA_HOME}/bin:$PATH
