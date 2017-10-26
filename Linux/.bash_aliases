@@ -47,6 +47,7 @@ alias gpl='git pull' # git pull
 alias gd='git diff' # git diff
 alias gch='git checkout' # git checkout
 alias glog='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short' # glog format own define
+alias gline='git ls-files | xargs cat | wc -l' # 查看仓库中所有文本文件行数总和
 
 
 
@@ -99,7 +100,7 @@ alias Kmysql='mysql -u myth -pad' #myth用户连接MySQL
 alias Krepos='py  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
 alias Kindex='py ~/Application/Script/python/append_contents.py' # 处理markdown文件
 alias Kdesktop='py ~/Application/Script/python/create_desktop.py' # 创建一个desktop文件
-alias Kmyth.redis='. /home/kcp/IdeaProjects/BaseLearn/MythRedisClient/run.sh &' # MythRedis 客户端
+alias Kclient='sh ~/IdeaProjects/BaseLearn/MythRedisClient/run.sh' # MythRedis 客户端
 
 
 ## 设置终端的提示符的颜色
