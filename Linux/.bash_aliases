@@ -122,9 +122,17 @@ lightgray='\[\033[0;37m\]'
 white='\[\033[1;37m\]'
 nocolor='\[\033[0m\]'
 
+source ~/.git-prompt.sh
+set_bash_prompt(){
+## PS1="[e[32m]u[e[m]@[e[33m]W[e[36m]$(__git_ps1 ' (%s)')[e[31m]$[e[m]"
+    PS1="${lightcyan}\t${lightgreen}\w${lightpurple}$(__git_ps1 ' (%s)')${yellow} → \[\e[m\]"
+}
+PROMPT_COMMAND="set_bash_prompt; $PROMPT_COMMAND"
 ## →
 ## PS1="${yellow}\u@\h${nocolor}:${lightpurple}\w ${nocolor}\$ "  ${lightpurple}\u
-PS1="${lightcyan}\t ${lightgreen}\w ${yellow}→ ${nocolor}"
+
+
+## PS1="${lightcyan}\t ${lightgreen}\w ${yellow}→ ${nocolor}"
 
 
 ## export只是当前终端有效，刷新这个文件就生效了，要删除的话，就要重新打开终端才会生效
