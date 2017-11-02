@@ -43,7 +43,9 @@ alias gb='git branch' # git branch
 alias gm='git commit' # git commit  
 alias gme='git merge --no-ff ' # git merge --no-ff 简写
 alias gp='git push' # git push
+alias gpo='git push origin' # git push origin 
 alias gpl='git pull' # git pull 
+alias gplo='git pull origin' # git pull origin 
 alias gd='git diff' # git diff
 alias gch='git checkout' # git checkout
 alias glog='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short' # glog format own define
