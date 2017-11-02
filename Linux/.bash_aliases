@@ -59,6 +59,7 @@ alias Kg.javabase='cd ~/IdeaProjects/BaseLearn/JavaBase' # Java基础项目
 alias Kg.spring.base='cd ~/IdeaProjects/SpringBoot/SpringBase' # Spring框架
 alias Kg.gradute='cd ~/IdeaProjects/SpringBoot/graduationreply' #毕业设计
 alias Kg.youhui='cd ~/IdeaProjects/weixin' # 优惠购
+alias Kg.oa='cd /home/kcp/IdeaProjects/oa' # OA项目
 
 ## Git__Python
 alias Kg.python.learn='cd ~/PycharmProjects/PythonMythLearn/' #python学习项目
