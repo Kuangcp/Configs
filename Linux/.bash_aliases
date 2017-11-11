@@ -13,9 +13,9 @@
 # Shell
 alias K.link='path=$(cd `dirname $0`; pwd) &&ln -s $path/.bash_aliases ~/.bash_aliases' # 将当前目录的alias配置文件映射到当前用户目录下
 alias K.h='py ~/Application/Script/python/show_alias_help.py' # 获取帮助文档
-alias Kali='gedit ~/.bash_aliases &' # 打开alias设置文件
-alias Kali.cat='cat ~/.bash_aliases' #显示文件
-alias Kali.update='source ~/.bashrc' # 重新加载bash配置文件
+alias Ka='gedit ~/.bash_aliases &' # 打开alias设置文件
+alias Ka.cat='cat ~/.bash_aliases' #显示文件
+alias Ka.update='source ~/.bashrc' # 重新加载bash配置文件
 alias Kremove='sudo apt remove --purge' # 完全卸载软件
 
 alias l='ls -CF' # ls -CF
@@ -44,6 +44,7 @@ alias gm='git commit' # git commit
 alias gme='git merge --no-ff ' # git merge --no-ff 简写
 alias gp='git push' # git push
 alias gpo='git push origin' # git push origin 
+alias gpdev='git push origin dev' # git push origin dev
 alias gpl='git pull' # git pull 
 alias gplo='git pull origin' # git pull origin 
 alias gd='git diff' # git diff
