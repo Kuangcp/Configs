@@ -29,8 +29,9 @@ alias dim='docker images' #docker images
 alias dstas='docker stats' # docker stats
 
 alias https='http —default-scheme=https' # httpie 的https方式
-alias mk='py /home/kcp/Application/Script/python/mythsdk/mythsdk.py' # 个人开发的sdk管理脚本
+alias kk='py /home/kcp/Application/Script/python/mythsdk/mythsdk.py' # 个人开发的sdk管理脚本
 alias ng='/home/kcp/Application/Net/Ngrok/ngrok' # ngrok
+alias qs='/home/kcp/Application/Net/qiniu/qshell-linux-x64' # 七牛云命令行工具
 alias gy='groovy' # groovy简写
 alias py='python3.5m' # python3.5m 简写
 alias py2='python' # python2 简写
@@ -159,7 +160,6 @@ export PATH=$PATH:$KOTLIN_HOME/bin
 
 MAVEN_HOME=~/.mythsdk/sdk/maven/current
 export PATH=$PATH:$MAVEN_HOME/bin
-
 
 SPRINGBOOT_HOME=~/.mythsdk/sdk/springboot/current
 export PATH=$PATH:$SPRINGBOOT_HOME/bin
