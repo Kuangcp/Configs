@@ -53,7 +53,8 @@ alias gch='git checkout' # git checkout
 alias glog='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short' # glog format own define
 alias gline='git ls-files | xargs cat | wc -l' # 查看仓库中所有文本文件行数总和
 
-
+alias teau='kuangcp' # jk
+alias teap='gitea1429336' # jk
 
 #  Git_REPOS
 ## Git__Java
