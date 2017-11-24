@@ -28,6 +28,7 @@ alias dps='docker ps -a' # docker ps
 alias dim='docker images' #docker images
 alias dstas='docker stats' # docker stats
 
+alias charles='sh /home/kcp/Application/Net/charles/bin/charles &' # charles
 alias https='http —default-scheme=https' # httpie 的https方式
 alias kk='py /home/kcp/Application/Script/python/mythsdk/mythsdk.py' # 个人开发的sdk管理脚本
 alias ng='/home/kcp/Application/Net/Ngrok/ngrok' # ngrok
@@ -53,8 +54,6 @@ alias gch='git checkout' # git checkout
 alias glog='git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short' # glog format own define
 alias gline='git ls-files | xargs cat | wc -l' # 查看仓库中所有文本文件行数总和
 
-alias teau='kuangcp' # jk
-alias teap='gitea1429336' # jk
 
 #  Git_REPOS
 ## Git__Java
