@@ -61,7 +61,7 @@ alias Kg.redis='cd ~/IdeaProjects/BaseLearn/MythRedisClient/' # Redis客户端�
 alias Kg.javatoolkit='cd ~/IdeaProjects/BaseLearn/JavaToolKit/' # Java工具包项目
 alias Kg.javabase='cd ~/IdeaProjects/BaseLearn/JavaBase' # Java基础项目
 alias Kg.spring.base='cd ~/IdeaProjects/SpringBoot/SpringBase' # Spring框架
-alias Kg.gradute='cd ~/IdeaProjects/SpringBoot/graduationreply' #毕业设计
+alias Kg.reply='cd /home/kcp/IdeaProjects/SpringBoot/reply' #毕业设计
 alias Kg.youhui='cd ~/IdeaProjects/weixin' # 优惠购
 alias Kg.oa='cd /home/kcp/IdeaProjects/oa' # OA项目
 
@@ -102,7 +102,7 @@ alias Kssh.ali.docker='ssh -p 9990 myth@120.25.203.47' # ssh登录阿里的docke
 alias Kssh.alpine='ssh -p 6789 root@120.25.203.47' # ssh登录docker中的alpine
 alias Kdocker.ubuntu='docker exec -it ubuntu16 bash' # 进入ubuntu16终端 11223:22 11224:8080 11225:6379
 alias Kmysql='mysql -u myth -pad' #myth用户连接MySQL 
-alias Krepos='py  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
+alias Kre='py  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
 alias Kindex='py ~/Application/Script/python/append_contents.py' # 处理markdown文件
 alias Kdesktop='py ~/Application/Script/python/create_desktop.py' # 创建一个desktop文件
 alias Kclient='sh ~/IdeaProjects/BaseLearn/MythRedisClient/run.sh' # MythRedis 客户端
