@@ -64,6 +64,7 @@ alias Kg.spring.base='cd ~/IdeaProjects/SpringBoot/SpringBase' # Spring框架
 alias Kg.reply='cd /home/kcp/IdeaProjects/SpringBoot/reply' #毕业设计
 alias Kg.youhui='cd ~/IdeaProjects/weixin' # 优惠购
 alias Kg.oa='cd /home/kcp/IdeaProjects/oa' # OA项目
+alias Kg.poi='cd /home/kcp/IdeaProjects/BaseLearn/myth-poi' # 封装POI
 
 ## Git__Python
 alias Kg.python.learn='cd ~/PycharmProjects/PythonMythLearn/' #python学习项目
@@ -79,8 +80,8 @@ alias Kg.config='cd ~/Documents/Notes/Configs' # 小工具
 
 # Directory
 alias Kd.redis='cd ~/Application/Database/redis-3.2.8' # redis目录
-alias Kd.tomcat8-5='cd ~/Videos/apache-tomcat-8.5.14' # tomcat目录,activiti使用
-alias Kd.tomcat.image='cd ~/Videos/apache-tomcat-image/apache-tomcat-8.5.14/bin' # tomcat目录 image,以及io 展示
+alias Kd.tomcat8-5='cd /home/kcp/Videos/tomcat/tomcat-activiti' # tomcat目录,activiti使用
+alias Kd.tomcat.image='cd /home/kcp/Videos/tomcat/tomcat-image' # tomcat目录 image,以及io 展示
 alias Kd.hexo='cd ~/hexo' # hexo目录
 alias Kd.linux='cd /media/kcp/Myth/Linux' # F盘下Linux目录
 
@@ -102,7 +103,8 @@ alias Kssh.ali.docker='ssh -p 9990 myth@120.25.203.47' # ssh登录阿里的docke
 alias Kssh.alpine='ssh -p 6789 root@120.25.203.47' # ssh登录docker中的alpine
 alias Kdocker.ubuntu='docker exec -it ubuntu16 bash' # 进入ubuntu16终端 11223:22 11224:8080 11225:6379
 alias Kmysql='mysql -u myth -pad' #myth用户连接MySQL 
-alias Kre='py  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
+alias Krp='py  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
+alias Krs='sh /home/kcp/Application/Script/shell/check_repos.sh' # 检查所有仓库状态 Shell 实现
 alias Kindex='py ~/Application/Script/python/append_contents.py' # 处理markdown文件
 alias Kdesktop='py ~/Application/Script/python/create_desktop.py' # 创建一个desktop文件
 alias Kclient='sh ~/IdeaProjects/BaseLearn/MythRedisClient/run.sh' # MythRedis 客户端
