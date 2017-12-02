@@ -36,7 +36,10 @@ alias qs='/home/kcp/Application/Net/qiniu/qshell-linux-x64' # 七牛云命令行
 alias gy='groovy' # groovy简写
 alias py='python3.5m' # python3.5m 简写
 alias py2='python' # python2 简写
-alias bell='sudo rmmod pcspkr' # 临时关闭终端响铃
+
+# 问题
+alias P.bell='sudo rmmod pcspkr' # 临时关闭终端响铃
+alias P.fcitx='fcitx -r' # 重启fcitx 或者 先把进程杀掉再fcitx-autostart & 或者 fcitx再fcitx-qimpanel 
 
 # GIT_CMD
 alias gs='git status' # git status 
@@ -80,8 +83,8 @@ alias Kg.config='cd ~/Documents/Notes/Configs' # 小工具
 
 # Directory
 alias Kd.redis='cd ~/Application/Database/redis-3.2.8' # redis目录
-alias Kd.tomcat8-5='cd /home/kcp/Videos/tomcat/tomcat-activiti' # tomcat目录,activiti使用
-alias Kd.tomcat.image='cd /home/kcp/Videos/tomcat/tomcat-image' # tomcat目录 image,以及io 展示
+alias Kd.tom.io='cd /home/kcp/Application/Apache/tomcat/tomcat-activiti' # tomcat目录,activiti使用
+alias Kd.tom.image='cd /home/kcp/Application/Apache/tomcat/tomcat-image' # tomcat目录 image,以及io 展示
 alias Kd.hexo='cd ~/hexo' # hexo目录
 alias Kd.linux='cd /media/kcp/Myth/Linux' # F盘下Linux目录
 
