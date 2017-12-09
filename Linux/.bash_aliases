@@ -39,7 +39,7 @@ alias py2='python' # python2 简写
 
 # 问题
 alias P.bell='sudo rmmod pcspkr' # 临时关闭终端响铃
-alias P.fcitx='fcitx -r' # 重启fcitx 或者 先把进程杀掉再fcitx-autostart & 或者 fcitx再fcitx-qimpanel 
+alias P.fcitx='fcitx-autostart &' # 先把fcitx杀掉,然后跑这个,或者直接跑这个
 
 # GIT_CMD
 alias gs='git status' # git status 
