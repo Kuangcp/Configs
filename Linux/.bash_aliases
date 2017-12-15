@@ -18,10 +18,10 @@ alias Ka.cat='cat ~/.bash_aliases' #显示文件
 alias Ka.update='source ~/.bashrc' # 重新加载bash配置文件
 alias Kremove='sudo apt remove --purge' # 完全卸载软件
 
-alias l='ls -CF' # ls -CF
-alias ll='ls -lh' # ls -l 简写
-alias la='ls -Ah' # ls -A
-alias lla='ls -lah' # ls -a 简写
+alias ll='ls -CF' # ls -CF
+alias l='ls -lh' # ls -l 简写
+alias lla='ls -Ah' # ls -A
+alias la='ls -lah' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
 
 alias dps='docker ps -a' # docker ps
