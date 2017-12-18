@@ -109,6 +109,7 @@ alias Kmysql='mysql -u myth -pad' #myth用户连接MySQL
 alias Krp='py  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
 alias Krs='sh /home/kcp/Application/Script/shell/check_repos.sh' # 检查所有仓库状态 Shell 实现
 alias Kindex='py ~/Application/Script/python/append_contents.py' # 处理markdown文件
+alias Kmd='bash /home/kcp/Application/Script/shell/text/deal_md.sh' # 处理MarkDown文件
 alias Kdesktop='py ~/Application/Script/python/create_desktop.py' # 创建一个desktop文件
 alias Kclient='sh ~/IdeaProjects/BaseLearn/MythRedisClient/run.sh' # MythRedis 客户端
 
