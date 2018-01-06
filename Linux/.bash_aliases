@@ -26,6 +26,9 @@ lightgray='\[\033[0;37m\]'
 white='\[\033[1;37m\]'
 nocolor='\[\033[0m\]'
 
+## 自动提示
+source ~/.git-completion.bash
+## 显示分支
 source ~/.git-prompt.sh
 set_bash_prompt(){
 ## PS1="[e[32m]u[e[m]@[e[33m]W[e[36m]$(__git_ps1 ' (%s)')[e[31m]$[e[m]"
