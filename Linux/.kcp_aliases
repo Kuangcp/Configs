@@ -115,5 +115,4 @@ alias Kg.io='cd /home/kcp/Documents/Notes/Kuangcp.github.io/' # github.io的仓�
 alias Kg.config='cd /home/kcp/Documents/Notes/Configs' # 小工具
 alias Kg.graduate='cd /home/kcp/IdeaProjects/SpringBoot/Reply/reply' # 毕业设计，采用Groovy结合Springboot
 alias Kg.junit='cd /home/kcp/Code/java/LearnJunit' # Junit3.8.1源码
-alias Kg.ffff='cd /home/kcp/Code/java/LearnJunit' # jk
 alias Kg.abstract_zh='cd /home/kcp/Code/java/weixiduo' # 张海的框架
