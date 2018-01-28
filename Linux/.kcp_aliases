@@ -24,11 +24,11 @@ alias tt='textadept' # textadept简写
 alias ged='gedit' # gedit 简写
 alias typ='typora' # typora 简写
 alias yed='java -jar /usr/share/yed/yed.jar &' # yed简写
-alias ll='ls -CF' # ls -CF
-alias l='ls -lh' # ls -l 简写
-alias lla='ls -Ah' # ls -A
-alias la='ls -lah' # ls -a 简写
+alias l='ls -lFh' # ls -l 简写
+alias lla='ls -AFh' # ls -A
+alias la='ls -lFah' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
+alias k='pwd' # pwd简写
 
 
 ## Docker
@@ -86,9 +86,9 @@ alias Kdocker.ubuntu='docker exec -it ubuntu16 bash' # 进入ubuntu16终端 1122
 alias Kmysql='mysql -u myth -pad' #myth用户连接MySQL 
 ##alias Krp='py  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
 ## alias Krs='sh /home/kcp/Application/Script/shell/check_repos.sh' # 检查所有仓库状态 Shell 实现
-alias Kre='sh /home/kcp/Application/Script/shell/check_by_aliases.sh' # 检查所有仓库状态 Shell 实现并通过读取自定义aliases文件
+alias Kre='dash /home/kcp/Application/Script/shell/check_by_aliases.sh' # 检查所有仓库状态 Shell 实现并通过读取自定义aliases文件
 ## alias Kindex='py ~/Application/Script/python/append_contents.py' # 处理markdown文件
-alias Kmd='bash /home/kcp/Application/Script/shell/text/deal_md.sh' # 处理MarkDown文件
+alias Kmd='dash /home/kcp/Application/Script/shell/text/deal_md.sh' # 处理MarkDown文件
 alias Kdesktop='py ~/Application/Script/python/create_desktop.py' # 创建一个desktop文件
 alias Kclient='sh ~/IdeaProjects/BaseLearn/MythRedisClient/run.sh' # MythRedis 客户端
 
@@ -116,3 +116,4 @@ alias Kg.config='cd /home/kcp/Documents/Notes/Configs' # 小工具
 alias Kg.graduate='cd /home/kcp/IdeaProjects/SpringBoot/Reply/reply' # 毕业设计，采用Groovy结合Springboot
 alias Kg.junit='cd /home/kcp/Code/java/LearnJunit' # Junit3.8.1源码
 alias Kg.abstract_zh='cd /home/kcp/Code/java/weixiduo' # 张海的框架
+alias Kg.extension='cd /home/kcp/Code/view/LearnWebExtension' # 火狐浏览器插件
