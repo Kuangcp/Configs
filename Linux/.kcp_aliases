@@ -29,11 +29,12 @@ alias lla='ls -AFh' # ls -A
 alias la='ls -lFah' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
 alias k='pwd' # pwd简写
+alias ff='firefox -P beta'
 
 
 ## Docker
 alias dps='docker ps -a' # docker ps -a
-alias dim='docker images' #docker images
+alias dim='docker images' # docker images
 alias dstas='docker stats' # docker stats
 alias dp='docker ps' # docker ps
 alias don='docker start' # docker start
@@ -84,8 +85,8 @@ alias Kssh.alpine='ssh -p 6789 root@120.25.203.47' # ssh登录docker中的alpine
 
 alias Kdocker.ubuntu='docker exec -it ubuntu16 bash' # 进入ubuntu16终端 11223:22 11224:8080 11225:6379
 alias Kmysql='mysql -u myth -pad' #myth用户连接MySQL 
-##alias Krp='py  ~/Application/Script/python/check_repos.py' #检查所有仓库状态的脚本
-## alias Krs='sh /home/kcp/Application/Script/shell/check_repos.sh' # 检查所有仓库状态 Shell 实现
+
+# Script
 alias Kre='dash /home/kcp/Application/Script/shell/check_by_aliases.sh' # 检查所有仓库状态 Shell 实现并通过读取自定义aliases文件
 ## alias Kindex='py ~/Application/Script/python/append_contents.py' # 处理markdown文件
 alias Kmd='dash /home/kcp/Application/Script/shell/text/deal_md.sh' # 处理MarkDown文件
@@ -98,7 +99,6 @@ alias Kg.redis='cd /home/kcp/IdeaProjects/BaseLearn/MythRedisClient/' # Redis客
 alias Kg.javatoolkit='cd /home/kcp/IdeaProjects/BaseLearn/JavaToolKit/' # Java工具包项目
 alias Kg.javabase='cd /home/kcp/IdeaProjects/BaseLearn/JavaBase' # Java基础项目
 alias Kg.spring.base='cd /home/kcp/IdeaProjects/SpringBoot/SpringBase' # Spring框架
-## alias Kg.reply='cd /home/kcp/IdeaProjects/SpringBoot/reply' #毕业设计
 alias Kg.youhui='cd /home/kcp/IdeaProjects/weixin' # 优惠购
 alias Kg.oa='cd /home/kcp/IdeaProjects/oa' # OA项目
 alias Kg.poi='cd /home/kcp/IdeaProjects/BaseLearn/myth-poi' # 封装POI
@@ -111,7 +111,7 @@ alias Kg.script='cd /home/kcp/Application/Script/' # 实用脚本
 alias Kg.images='cd /home/kcp/Pictures/ImageRepos' # 图片仓库
 alias Kg.notes='cd /home/kcp/Documents/Notes/Notes/' # 笔记仓库
 alias Kg.diary='cd /home/kcp/Documents/Notes/diary/' # 个人日记目录
-alias Kg.io='cd /home/kcp/Documents/Notes/Kuangcp.github.io/' # github.io的仓库
+alias Kg.io='cd /home/kcp/Documents/Notes/io/' # github.io的仓库
 alias Kg.config='cd /home/kcp/Documents/Notes/Configs' # 小工具
 alias Kg.graduate='cd /home/kcp/IdeaProjects/SpringBoot/Reply/reply' # 毕业设计，采用Groovy结合Springboot
 alias Kg.junit='cd /home/kcp/Code/java/LearnJunit' # Junit3.8.1源码

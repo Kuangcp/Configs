@@ -42,6 +42,8 @@ PROMPT_COMMAND="set_bash_prompt; $PROMPT_COMMAND"
 
 ## PS1="${lightcyan}\t ${lightgreen}\w ${yellow}→ ${nocolor}"
 
+FIREFOX_58=/home/kcp/Application/Net/firefox_beta
+export PATH=${FIREFOX_58}:$PATH
 
 ## export只是当前终端有效，刷新这个文件就生效了，要删除的话，就要重新打开终端才会生效
 JAVA_HOME=/home/kcp/Application/sdk/jdk1.8.0_152
