@@ -29,7 +29,7 @@ alias lla='ls -AFh' # ls -A
 alias la='ls -lFah' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
 alias k='pwd' # pwd简写
-alias ff='firefox -P beta'
+alias ff='firefox -P beta' # firefox 58
 
 
 ## Docker
