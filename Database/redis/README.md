@@ -1,4 +1,27 @@
+> [4.0.2](http://cloud.kuangcp.top/redis-4.0.2.zip) | [3.2.8](http://cloud.kuangcp.top/redis-3.2.8.zip)  
 > 直接解压运行脚本就用。改端口，配置什么的看下面 
+
+## 常用配置项
+```
+    # 绑定了本地，其他主机无法连接
+    bind 127.0.0.1
+    # 不允许其他主机的客户端连接
+    protected-mode yes
+    # 后台方式运行
+    daemonize no
+    # 设置密码
+    requirepass myth 
+```
+## 绿色安装redis
+- 只要下载源码包，解压
+- 在解压根目录 `make`
+- 打开src目录 复制以下文件
+    - `redis-server`
+    - `redis-cli`
+    - `redis-benchmark`
+    - 解压根目录的 `redis.conf`
+- 随意新建一个目录，将四个文件拷过来，就可以直接运行了
+- `./redis-server redis.conf`
 
 *******************
 ## Part I. 直接启动
