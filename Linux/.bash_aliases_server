@@ -7,10 +7,10 @@ alias Kali.cat='cat ~/.bash_aliases' #显示文件
 alias Kali.update='source ~/.bashrc' # 重新加载bash配置文件
 alias Kremove='sudo apt remove --purge' # 完全卸载软件
 
-alias l='ls -CF' # ls -CF
-alias ll='ls -lh' # ls -l 简写
-alias la='ls -Ah' # ls -A
-alias lla='ls -lah' # ls -a 简写
+alias l='ls -ClF' # ls -CF
+alias ll='ls -Fh' # ls -l 简写
+alias la='ls -AlFh' # ls -A
+alias lla='ls -aFh' # ls -a 简写
 alias ..='cd ..' # cd .. 简写
 
 alias dps='docker ps -a' # docker ps

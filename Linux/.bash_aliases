@@ -33,7 +33,7 @@ source ~/.git-prompt.sh
 set_bash_prompt(){
 ## PS1="[e[32m]u[e[m]@[e[33m]W[e[36m]$(__git_ps1 ' (%s)')[e[31m]$[e[m]"
     ## PS1="${lightcyan}\t${lightgreen}\w${lightpurple}$(__git_ps1 ' (%s)')${yellow} → \[\e[m\]"
-    PS1="${lightcyan}|\t|${lightpurple}$(__git_ps1 '(%s)')${yellow} → \[\e[m\]"
+    PS1="${lightcyan}\t${lightgreen}\w${lightpurple}$(__git_ps1 '(%s)')${yellow} → \[\e[m\]"
 }
 PROMPT_COMMAND="set_bash_prompt; $PROMPT_COMMAND"
 ## →
