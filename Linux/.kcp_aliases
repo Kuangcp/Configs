@@ -5,6 +5,7 @@ alias K.link='ln -s `pwd`/.bash_aliases ~/.bash_aliases' # 将当前目录的ali
 alias K.h='py ~/Application/Script/python/show_alias_help.py' # 获取帮助文档
 alias Kpath='gedit ~/.bash_aliases &' # 打开环境变量配置文件
 alias Ka='gedit ~/.kcp_aliases &' # 打开alias设置文件
+alias home.config='vim /home/kcp/Documents/Notes/home/js/main/main.data.js' # 快速修改文件
 alias Ka.cat='cat ~/.kcp_aliases' # 显示文件
 alias Ka.update='source ~/.bashrc' # 重新加载bash配置文件
 alias Kremove='sudo apt remove --purge' # 完全卸载软件
@@ -35,10 +36,10 @@ alias ff='firefox -P beta' # firefox 58
 
 
 ## Docker
+alias dp='docker ps' # docker ps
 alias dps='docker ps -a' # docker ps -a
 alias dim='docker images' # docker images
 alias dstas='docker stats' # docker stats
-alias dp='docker ps' # docker ps
 alias don='docker start' # docker start
 alias doff='docker stop' # docker stop
 
@@ -64,6 +65,7 @@ alias gline='git ls-files | xargs cat | wc -l' # 查看仓库中所有文本文�
 
 # Directory
 alias Kd.redis='cd ~/Application/Database/redis-3.2.8' # redis目录
+alias Kd.redis4='cd /home/kcp/Application/Database/redis-4.0.1' # redis4
 alias Kd.tom.io='cd /home/kcp/Application/Apache/tomcat/tomcat-activiti' # tomcat目录,activiti使用
 alias Kd.tom.image='cd /home/kcp/Application/Apache/tomcat/tomcat-image' # tomcat目录 image,以及io 展示
 alias Kd.hexo='cd ~/hexo' # hexo目录
@@ -115,8 +117,8 @@ alias Kg.notes='cd /home/kcp/Documents/Notes/Notes/' # 笔记仓库
 alias Kg.diary='cd /home/kcp/Documents/Notes/diary/' # 个人日记目录
 alias Kg.io='cd /home/kcp/Documents/Notes/io/' # github.io的仓库
 alias Kg.config='cd /home/kcp/Documents/Notes/Configs' # 小工具
-alias Kg.graduate='cd /home/kcp/IdeaProjects/SpringBoot/Reply/reply' # 毕业设计，采用Groovy结合Springboot
+alias Kg.graduate='cd /home/kcp/IdeaProjects/SpringBoot/Reply/reply' # 毕业设计
 alias Kg.junit='cd /home/kcp/Code/java/LearnJunit' # Junit3.8.1源码
 alias Kg.abstract_zh='cd /home/kcp/Code/java/weixiduo' # 张海的框架
 alias Kg.extension='cd /home/kcp/Code/view/LearnWebExtension' # 火狐浏览器插件
-alias Kg.home='cd /home/kcp/Documents/Notes/home' # gitee page
+alias Kg.home='cd /home/kcp/Documents/Notes/home' # gitee上的page
