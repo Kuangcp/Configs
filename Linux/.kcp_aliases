@@ -83,11 +83,9 @@ alias Krec='asciinema rec' # 开始录制终端
 alias Kssh='ssh -p 22 kuang@120.25.203.47' # ssh登录服务器
 alias Kuang='ssh kuang@120.78.154.52' #自己的服务器
 alias Kserver='ssh youhuigo@118.31.14.157' # 登录公司服务器
-alias Kssh.l0.alpine='ssh -p 55555 root@localhost' # ssh登录本地docker中的alpine
-alias Kssh.ali.docker='ssh -p 9990 myth@120.25.203.47' # ssh登录阿里的docker里的Ubuntu
-alias Kssh.alpine='ssh -p 6789 root@120.25.203.47' # ssh登录docker中的alpine
+alias Ks.alpine1='ssh -p 8989 root@localhost' # ssh登录本地docker中的alpine1
+alias Ks.r.ubuntu='ssh -p 9990 myth@120.25.203.47' # ssh登录阿里的docker里的Ubuntu
 
-alias Kdocker.ubuntu='docker exec -it ubuntu16 bash' # 进入ubuntu16终端 11223:22 11224:8080 11225:6379
 alias Kmysql='mysql -u myth -pad' #myth用户连接MySQL 
 
 # Script

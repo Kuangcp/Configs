@@ -1,4 +1,2 @@
 Git 分支的详细学习
-SSH 多密钥对配置
 shell脚本的编写
-.alias_server优化
