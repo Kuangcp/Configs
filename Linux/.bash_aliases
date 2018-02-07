@@ -1,3 +1,9 @@
+alias Kpath='gedit ~/.bash_aliases &' # 打开环境变量配置文件
+alias Ka='gedit ~/.kcp_aliases.conf &' # 打开alias设置文件
+alias Ka.cat='cat ~/.kcp_aliases.conf' # 显示文件
+alias Ka.update='source ~/.bashrc' # 重新加载bash配置文件
+
+
 ## 环境变量手动配置 统一配置
 ##SDK_DIR=/home/kcp/.sdkman/candidates
 ##GRADLE_HOME=$SDK_DIR/gradle/current
@@ -6,7 +12,6 @@
 ##KOTLIN_HOME=$SDK_DIR/kotlin/current
 ##SCALA_HOME=$SDK_DIR/scala/current
 ##export PATH=$PATH:$GRADLE_HOME/bin:$GRAILS_HOME/bin:$GROOVY_HOME/bin:$SCALA_HOME/bin:$KOTLIN_HOME/bin
-
 ## 设置终端的提示符的颜色
 black='\[\033[0;30m\]'     
 darkgray='\[\033[1;30m\]'
