@@ -1,7 +1,8 @@
-x 一周内完成activiti的学习
 x 完成线程状态学习
 x GPG的学习使用
 x 把脚本部署到多个设备, 每天去访问一次
 x .alias_server优化
 x SSH 多密钥对配置
 x 配置ZSH
+x 获取URL的icon
+x shell脚本的编写

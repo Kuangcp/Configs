@@ -1,6 +1,5 @@
+一周内完成activiti的学习
 Git 分支的详细学习
-shell脚本的编写
-获取URL的icon
 Java基础和毕设的继续完成
 2018展望的编写
 volatile 关键字 并发安全? 线程 同步 异步
