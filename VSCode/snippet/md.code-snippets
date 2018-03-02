@@ -18,13 +18,45 @@
 	"Blog Link": {
 		"scope": "markdown",
 		"prefix": "bl",
-		"body": ["[参考博客: ]()"],
+		"body": [
+			"[参考博客: $1]($2)"
+		],
 		"description": "md 的链接"
 	},
 	"MD Link": {
 		"scope": "markdown",
 		"prefix": "l",
-		"body": ["[]()"],
+		"body": ["[$1]($2)"],
+		"description": "md 的链接"
+	},
+	"MD Table2": {
+		"scope": "markdown",
+		"prefix": "ta2",
+		"body": [
+			"| $1 | $2 |",
+			"|:----:|:----:|",
+			"| $3 | $4 |"
+		],
+		"description": "md 的链接"
+	},
+	"MD Table3": {
+		"scope": "markdown",
+		"prefix": "ta3",
+		"body": [
+			"| $1 | $2 | $3 |",
+			"|:----:|:----:|:----:|",
+			"| $4 | $5 | $6 |"
+		],
+		"description": "md 的链接"
+	},
+	"MD Table4": {
+		"scope": "markdown",
+		"prefix": "ta4",
+		"body": [
+			"| $1 | $2 | $3 | $4 |",
+			"|:----:|:----:|:----:|:----:|",
+			"| $5 | $6 | $7 | $8 |"
+		],
 		"description": "md 的链接"
 	}
 
