@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 0,
+    "terminal.integrated.cursorStyle": "underline",
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.visible": false,
+    "extensions.ignoreRecommendations": false,
+    "workbench.statusBar.visible": true,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'DeJaVu Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.iconTheme": "vscode-icons",
+    "sqltools.telemetryUUID": "41c3d85b-df7d-4cbf-94aa-4927cd4d1826"
+}
