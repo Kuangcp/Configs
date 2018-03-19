@@ -80,3 +80,6 @@ export PATH=$PATH:$CRASH_HOME/bin
 
 VISUALVM_HOME=~/.mythsdk/sdk/visualvm/current
 export PATH=$PATH:$VISUALVM_HOME/bin
+
+SPRINGBOOT_HOME=~/.mythsdk/sdk/springboot/current
+export PATH=$PATH:$SPRINGBOOT_HOME/bin
