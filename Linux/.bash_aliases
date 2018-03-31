@@ -62,8 +62,8 @@ export PATH=$PATH:$SCALA_HOME/bin
 GROOVY_HOME=~/.mythsdk/sdk/groovy/current
 export PATH=$PATH:$GROOVY_HOME/bin
 
-GRADLE_HOME=~/.mythsdk/sdk/gradle/current
-export PATH=$PATH:$GRADLE_HOME/bin
+# GRADLE_HOME=~/.mythsdk/sdk/gradle/current
+# export PATH=$PATH:$GRADLE_HOME/bin
 
 KOTLIN_HOME=~/.mythsdk/sdk/kotlin/current
 export PATH=$PATH:$KOTLIN_HOME/bin
