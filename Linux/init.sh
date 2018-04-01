@@ -1,5 +1,5 @@
 #!/bin/sh
-# path=$(cd `dirname $0`; pwd)
+userDir=$(cd;pwd)
 
 help(){
     start='\033[0;32m'
@@ -14,7 +14,7 @@ help(){
 append(){
     echo 'if [ -f ~/.'$1' ]; then
     . ~/.'$1'
-fi'>>'/home/kcp/.'$2'shrc'
+fi'>>$userDir'/.'$2'shrc'
 }
 
 path=`pwd`
