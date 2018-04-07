@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Development;
+Exec=/home/kcp/Application/Text/astah_professional/astah
+Icon=/home/kcp/Application/Text/astah_professional/astah.png
+Name=Astah
+Terminal=false
+Type=Application
