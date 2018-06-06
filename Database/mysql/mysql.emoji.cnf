@@ -1,0 +1,84 @@
+[client] 
+default-character-set = utf8mb4 
+[mysql] 
+default-character-set = utf8mb4 
+
+
+[mysqld]
+basedir = /usr/local/mysql
+datadir = /data/mysql-3307/data
+port = 3307
+server_id = 1
+socket = /data/mysql-3307/mysqld.sock
+tmpdir = /data/mysql-3307/tmp
+log_error = mysql_error_log.err
+
+character-set-client-handshake=FALSE
+collation-server = utf8mb4_unicode_ci 
+init_connect=’SET NAMES utf8mb4’
+
+max_allowed_packet=16M
+skip-name-resolve
+skip-external-locking
+character-set-server=utf8mb4
+max_connections = 14000
+max_connect_errors = 10
+
+back_log = 50
+table_open_cache = 2048
+max_allowed_packet = 16M
+binlog_cache_size = 1M
+max_heap_table_size = 64M
+read_buffer_size = 128k
+read_rnd_buffer_size = 4M
+sort_buffer_size = 2M
+join_buffer_size = 1M
+thread_cache_size = 100
+thread_concurrency = 8
+query_cache_size = 8M
+query_cache_limit = 2M
+ft_min_word_len = 4
+default-storage-engine = INNODB
+thread_stack = 192K
+transaction_isolation = READ-COMMITTED
+tmp_table_size = 64M
+binlog_row_image=minimal
+
+##二进制日志设置
+log-bin = mysql-bin
+log_bin_trust_function_creators=1
+binlog_format = row
+expire_logs_days = 7
+
+##慢查询日志设置
+slow_query_log
+long_query_time = 1
+slow_query_log_file = mysql_slow.log
+
+##Innodb存储引擎参数设置
+#innodb_additional_mem_pool_size = 20M
+innodb_buffer_pool_size = 1G
+innodb_data_file_path = ibdata1:2048M:autoextend
+innodb_autoextend_increment = 256M
+innodb_file_io_threads = 4
+innodb_thread_concurrency = 0
+innodb_flush_log_at_trx_commit = 0
+innodb_log_buffer_size = 16M
+innodb_log_file_size = 256M
+innodb_log_files_in_group = 3
+innodb_max_dirty_pages_pct = 90
+innodb_lock_wait_timeout = 120
+#innodb_flush_method = O_DIRECT
+
+# Remove leading # to set options mainly useful for reporting servers.
+# The server defaults are faster for transactions and fast SELECTs.
+# Adjust sizes as needed, experiment to find the optimal values.
+# join_buffer_size = 128M
+# sort_buffer_size = 2M
+# read_rnd_buffer_size = 2M 
+
+sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES 
+
+[mysqldump]
+user=root
+password=qweasdzxc
