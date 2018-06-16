@@ -1,0 +1,9 @@
+{
+	"Fire init": {
+		"prefix": "fire",
+		"body": [
+			"import fire\ndef main(verb, args):\n\tpass\nfire.Fire(main)"
+		],
+		"description": "init a fire"
+	}
+}
