@@ -1,0 +1,30 @@
+{
+	"Get Current Path": {
+		"scope": "shellscript",
+		"prefix": "pwd",
+		"body": [
+			"path=$(cd `dirname $0`; pwd)"
+		],
+		"description": "get shell file absolute execute path"
+	},
+	"Init a shell": {
+		"scope": "shellscript",
+		"prefix": "init",
+		"body": [
+			"red='\\033[0;31m'",
+			"green='\\033[0;32m'",
+			"yellow='\\033[0;33m'",
+			"yarn='\\033[0;34m'",
+			"pulper='\\033[0;35m'",
+			"blue='\\033[0;36m'",
+			"white='\\033[0;37m'",
+			"end='\\033[0m'\n",
+			"help(){",
+			"    printf \"Run：\\$red sh $1.sh\\$green <verb> <args>\\$end\\n\"",
+			"    format=\"  \\$green%-14s \\$yellow%-15s\\$end%-20s\\n\"",
+			"    printf \"\\$format\" \"-h|h|help\" \"\" \"帮助\"",
+			"}\n\ncase \\$1 in \n\t-h | h | help)\n\t\thelp ;;\n\t*)\n\t\thelp ;;\nesac"
+		],
+		"description": "init a tool shell "
+	}
+}
