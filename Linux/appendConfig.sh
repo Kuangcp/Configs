@@ -1,5 +1,7 @@
 #!/bin/sh
 userDir=$(cd;pwd)
+path=$(cd `dirname $0`; pwd)
+path=$path/init
 
 help(){
     start='\033[0;32m'
@@ -9,7 +11,7 @@ help(){
     printf "  $start%-16s$end%-20s\n" "sys   z|ba" "常用别名, 公共的"
     printf "  $start%-16s$end%-20s\n" "path  z|ba" "存放环境变量"
     printf "  $start%-16s$end%-20s\n" "repo  z|ba" "存放git仓库别名"
-    printf "  $start%-16s$end%-20s\n" "cus  z|ba" "存放脚本工具别名,路径别名,SSH等自定义信息"
+    printf "  $start%-16s$end%-20s\n" "cus   z|ba" "存放脚本工具别名,路径别名,SSH等自定义信息"
 }
 append(){
     echo 'if [ -f ~/.'$1' ]; then
@@ -17,25 +19,27 @@ append(){
 fi'>>$userDir'/.'$2'shrc'
 }
 
-path=`pwd`
 case $1 in 
     -h | h |help)
         help
     ;;
     sys)
-        ln -s $path'/init/system.conf' ~/.system
+        ln -s $path'/system.conf' ~/.system
         append system $2
     ;;
     repo)
-        ln -s $path'/init/repos.ini' ~/.repos
+        cp ${path}/repos.conf ${path}/repos.ini
+        ln -s $path'/repos.ini' ~/.repos
         append repos $2
     ;;
     path)
-        ln -s $path'/init/path.ini' ~/.path
+        cp ${path}/path.conf ${path}/path.ini
+        ln -s $path'/path.ini' ~/.path
         append path $2
     ;;
     cus)
-        ln -s $path'/init/customized.ini' ~/.customized
+        cp ${path}/customized.conf ${path}/customized.ini
+        ln -s $path'/customized.ini' ~/.customized
         append customized $2
     ;;
     *)
