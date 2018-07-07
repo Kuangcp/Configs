@@ -1,20 +1,17 @@
 {
 	"Blog Link": {
-		"scope": "markdown",
 		"prefix": "bl",
 		"body": [
-			"[参考博客: $1]($2)"
+			"> [参考博客: $1]($2)"
 		],
 		"description": "md 的链接"
-	},
-	"MD Link": {
-		"scope": "markdown",
+	}
+	,"MD Link": {
 		"prefix": "l",
 		"body": ["[$1]($2)"],
 		"description": "md 的链接"
-	},
-	"MD Table2": {
-		"scope": "markdown",
+	}
+	,"MD Table2": {
 		"prefix": "ta2",
 		"body": [
 			"| $1 | $2 |",
@@ -22,9 +19,8 @@
 			"| $3 | $4 |"
 		],
 		"description": "2X2表格"
-	},
-	"MD Table3": {
-		"scope": "markdown",
+	}
+	,"MD Table3": {
 		"prefix": "ta3",
 		"body": [
 			"| $1 | $2 | $3 |",
@@ -32,9 +28,8 @@
 			"| $4 | $5 | $6 |"
 		],
 		"description": "3X2表格"
-	},
-	"MD Table4": {
-		"scope": "markdown",
+	}
+	,"MD Table4": {
 		"prefix": "ta4",
 		"body": [
 			"| $1 | $2 | $3 | $4 |",
@@ -42,14 +37,19 @@
 			"| $5 | $6 | $7 | $8 |"
 		],
 		"description": "4X2表格"
-	},
-	"Img link": {
-		"scope": "markdown",
+	}
+	,"Img link": {
 		"prefix": "img",
 		"body": [
 			"![$1]($2)"
 		],
 		"description": "图片链接"
 	}
-
+	,"TODO": {
+		"prefix": "td",
+		"body": [
+			"- [ ] $1"
+		],
+		"description": "TODO"
+	}
 }
