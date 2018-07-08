@@ -1,6 +1,6 @@
 {
 	"Blog Link": {
-		"prefix": "bl",
+		"prefix": "lb",
 		"body": [
 			"> [参考博客: $1]($2)"
 		],
