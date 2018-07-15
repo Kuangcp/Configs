@@ -1,0 +1,52 @@
+{
+	"init a main go": {
+		"prefix": "initMain",
+		"body": [
+			"package main",
+			"import (",
+				"\t\"os\"",
+				"\t\"fmt\"",
+				"\t\"io/ioutil\"",
+			")",
+			"var print = fmt.Print",
+			"var printf = fmt.Printf",
+			"var println = fmt.Println",
+			"func main(){\n    $1\n}"
+		],
+		"description": "init a main.go file "
+	}
+	,"add read args func": {
+		"prefix": "addArgs",
+		"body": [
+			"var argLen int = len(os.Args)",
+			"if argLen == 2 {\n\thandlerArgs(os.Args[1], \"\")\n}",
+			"if argLen == 3 {\n\thandlerArgs(os.Args[1], os.Args[2])\n}",
+			"func handlerArgs(verb string, param string){",
+				"\tswitch verb {",
+					"\t\tcase \"-h\":",
+						"\t\t\tvar format string = \"\\033[0;32m %-5v \\033[0;32m %-10v \\033[0m%v \\n\"",
+						"\t\t\tlogf(format, \"-h\", \"\", \"帮助\")",
+						"\t\t\tos.Exit(0)\n\t}\n}",
+				
+		],
+		"description": "add handlerArgs func"
+	}
+	,"plan input args": {
+		"prefix": "planArgs",
+		"body": [
+			"var argLen int = len(os.Args)",
+			"if argLen == 2 {\n\thandlerArgs(os.Args[1], \"\")\n}",
+			"if argLen == 3 {\n\thandlerArgs(os.Args[1], os.Args[2])\n}",
+		],
+		"description": "init a main.go file "
+	}
+	,"print colorful": {
+		"prefix": "colorful",
+		"body": [
+			"printf(\"\\033[0;32m %v\\033[0m\\n\", $1)",
+		],
+		"description": "init a main.go file "
+	}
+	
+
+}
