@@ -7,9 +7,14 @@
 		"description": "md 的链接"
 	}
 	,"MD Link": {
+		"prefix": "ll",
+		"body": ["- [$1]($2)"],
+		"description": "md 链接"
+	}
+	,"MD Quote Link": {
 		"prefix": "l",
-		"body": ["[$1]($2)"],
-		"description": "md 的链接"
+		"body": ["> [$1]($2)"],
+		"description": "md 链接 引用"
 	}
 	,"MD Table2": {
 		"prefix": "ta2",
