@@ -19,12 +19,12 @@
 			"white='\\033[0;37m'",
 			"end='\\033[0m'\n",
 
-			"def logError(msg):\n    print('%s%s%s'%(red, msg, end))",
-			"def logInfo(msg):\n    print('%s%s%s'%(green, msg, end))",
-			"def printParam(verb, args, comment):\n    print('  %s%-5s %s%-6s %s%s'%(green, verb, yellow, args, end, comment))",
+			"def logError(msg):\n    print('%s%s%s'%(red, msg, end))\n",
+			"def logInfo(msg):\n    print('%s%s%s'%(green, msg, end))\n",
+			"def printParam(verb, args, comment):\n    print('  %s%-5s %s%-6s %s%s'%(green, verb, yellow, args, end, comment))\n",
 			"def help():\n    print('run: %s  %s <verb> %s <args>%s'%('$1', green, yellow, end))",
-			"    printParam('-h', '', 'help')",
-			"def main(verb=None, args=None):\n\tif verb == '-h':\n\t\thelp()\n\t\tsys.exit(0)",
+			"    printParam('-h', '', 'help')\n",
+			"def main(verb=None, args=None):\n\tif verb == '-h':\n\t\thelp()\n\t\tsys.exit(0)\n",
 			"\nfire.Fire(main)"
 		],
 		"description": "init a tool shell "
