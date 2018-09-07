@@ -19,4 +19,6 @@ function setInputWhiteBG(){
 
 setInputWhiteBG()
 
+document.body.style.backgroundColor="#d1d1d1"
+
 console.log("load successful")
