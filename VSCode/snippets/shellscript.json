@@ -42,4 +42,13 @@
 		],
 		"description": "get user path"
 	}
+
+	,"simple loop": {
+		"prefix": "loop",
+		"body": [
+			"for i in $(seq $1 $2); do\n\t\ndone"
+		],
+		"description": "simple loop"
+	}
+	
 }
