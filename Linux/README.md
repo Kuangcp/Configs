@@ -14,8 +14,15 @@
     fi
 ```
 
-host文件
-cpu信息文件
-vim配置文件
+1. host文件
+1. cpu信息文件
+1. vim配置文件
 
+### Qterminal
+> 一个比较好用的终端
+
+1. 字体: Source Code Pro for Powerline 11 pt
+1. 终端颜色 BreezeModified
+1. 控件样式 dsemidark
+1. 透明0 终端透明 20% 背景图片 你的名字 [流星图 地址](http://desk.zol.com.cn/bizhi/6849_85488_2.html)
 

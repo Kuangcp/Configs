@@ -14,8 +14,8 @@ help(){
     printf "  $start%-16s$end%-20s\n" "cus   z|ba" "3 存放脚本工具别名,路径别名,SSH等自定义信息"
 }
 append(){
-    echo 'if [ -f ~/.'${1}.ini' ]; then
-    . ~/.'${1}.ini'
+    echo 'if [ -f ~/.'${1}.sh' ]; then
+    . ~/.'${1}.sh'
 fi'>>$userDir'/.'$2'shrc'
 }
 
@@ -24,22 +24,30 @@ case $1 in
         help
     ;;
     sys)
-        ln -s $path'/system.conf' ~/.system.ini
+        ln -s $path'/system.conf' ~/.system.sh
         append system $2
     ;;
     repo)
+        if [ ! -f ${path}/repos.ini ];then
+            cp ${path}/repos.conf ${path}/repos.ini
+        fi
         cp ${path}/repos.conf ${path}/repos.ini
-        ln -s $path'/repos.ini' ~/.repos.ini
+        ln -s $path'/repos.ini' ~/.repos.sh
         append repos $2
     ;;
     path)
-        cp ${path}/path.conf ${path}/path.ini
-        ln -s $path'/path.ini' ~/.path.ini
+        if [ ! -f ${path}/path.ini ];then
+            cp ${path}/path.conf ${path}/path.ini
+        fi
+        
+        ln -s $path'/path.ini' ~/.path.sh
         append path $2
     ;;
     cus)
-        cp ${path}/customized.conf ${path}/customized.ini
-        ln -s $path'/customized.ini' ~/.customized.ini
+        if [ ! -f ${path}/customized.ini ];then
+            cp ${path}/customized.conf ${path}/customized.ini
+        fi
+        ln -s $path'/customized.ini' ~/.customized.sh
         append customized $2
     ;;
     *)
