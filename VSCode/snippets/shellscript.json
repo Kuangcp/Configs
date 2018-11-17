@@ -35,6 +35,16 @@
 		],
 		"description": "log msg to file"
 	}
+	,"log for console": {
+		"prefix": "log",
+		"body": [
+			"log(){\n    printf \" \\$1\\n\"\n}"
+			, "log_error(){\n    printf \"\\$red \\$1 \\$end\\n\" \n}"
+			, "log_info(){\n    printf \"\\$green \\$1 \\$end\\n\" \n}"
+			, "log_warn(){\n    printf \"\\$yellow \\$1 \\$end\\n\" \n}"
+		],
+		"description": "log msg to file"
+	}
 	,"user dir": {
 		"prefix": "user",
 		"body": [

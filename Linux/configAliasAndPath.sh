@@ -31,7 +31,6 @@ case $1 in
         if [ ! -f ${path}/repos.ini ];then
             cp ${path}/repos.conf ${path}/repos.ini
         fi
-        cp ${path}/repos.conf ${path}/repos.ini
         ln -s $path'/repos.ini' ~/.repos.sh
         append repos $2
     ;;
