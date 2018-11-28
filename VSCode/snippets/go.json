@@ -47,6 +47,14 @@
 		],
 		"description": "init a main.go file "
 	}
+	,"println":{
+		"prefix": "sout",
+		"body": "fmt.Println($1)"
+	}
+	,"testMethod":{
+		"prefix": "testMethod",
+		"body": "func Test$1(t *testing.T) {\n$2}"
+	}
 	
 
 }

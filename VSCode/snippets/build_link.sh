@@ -16,8 +16,8 @@ help(){
     printf "Run：$red sh build_link.sh $green<verb> $yellow<args>$end\n"
     format="  $green%-5s $yellow%-8s$end%-20s\n"
     printf "$format" "-h" "" "help"
-    printf "$format" "-s" "" "link all *.json"
-    printf "$format" "-l" "file" "link specific file "
+    printf "$format" "-a" "" "link all *.json"
+    printf "$format" "-f" "file" "link specific file "
 }
 link_snippets(){
 	files=`ls *.json`
@@ -30,10 +30,10 @@ link_snippets(){
 case $1 in 
     -h)
         help ;;
-    -s)
+    -a)
 		link_snippets
 	;;
-	-l)
+	-f)
 		ln -s `pwd`/$2 $vscode/$2
 	;;
 	*)
