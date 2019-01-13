@@ -3,6 +3,7 @@ userDir=$(cd;pwd)
 path=$(cd `dirname $0`; pwd)
 path=$path/init
 
+# *.conf copy to *.ini and set link file to ~/*.sh
 help(){
     start='\033[0;32m'
     end='\033[0m'
