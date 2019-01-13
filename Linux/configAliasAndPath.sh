@@ -9,6 +9,7 @@ help(){
     end='\033[0m'
     printf "运行：dash init.sh $start <params> $end"
     printf "  $start%-16s$end%-20s\n" "-h|h|help" "帮助"
+    printf "  $start%-16s$end%-20s\n" "-zsh" "install oh-my-zsh"
     printf "  $start%-16s$end%-20s\n" "sys   z|ba" "2 常用别名, 公共"
     printf "  $start%-16s$end%-20s\n" "path  z|ba" "1 存放环境变量  "
     printf "  $start%-16s$end%-20s\n" "repo  z|ba" "4 存放git仓库别名"
@@ -49,6 +50,9 @@ case $1 in
         fi
         ln -s $path'/customized.ini' ~/.customized.sh
         append customized $2
+    ;;
+    -zsh)
+        sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
     ;;
     *)
         help
