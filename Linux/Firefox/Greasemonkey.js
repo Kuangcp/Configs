@@ -6,19 +6,26 @@
 
 console.log("start load myth js")
 
-function setInputWhiteBG(){
-  var inputs = document.getElementsByTagName("input");
-  if (inputs == null){
+function setWhiteBG(tagName){
+   var tags = document.getElementsByTagName(tagName);
+  if (tags == null){
     return;
   }
-  for (var i=0; i< inputs.length; i++){
-    inputs[i].style.backgroundColor="#FFFFFF"
-    inputs[i].style.color="#000000"
+  for (var i=0; i< tags.length; i++){
+    tags[i].style.backgroundColor="#FFFFFF"
+    tags[i].style.color="#000000"
   }
 }
 
-setInputWhiteBG()
 
-document.body.style.backgroundColor="#d1d1d1"
+
+setWhiteBG("input")
+setWhiteBG("textarea")
+
+// #d4d4d4
+document.body.style.backgroundColor="#AAAAAA"
+// document.body.style.color="#FFFFFF";
 
 console.log("load successful")
+
+
