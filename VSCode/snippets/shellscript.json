@@ -52,7 +52,6 @@
 		],
 		"description": "get user path"
 	}
-
 	,"simple loop": {
 		"prefix": "loop",
 		"body": [
@@ -60,5 +59,11 @@
 		],
 		"description": "simple loop"
 	}
-	
+	,"assert param": {
+		"prefix": "assertParam",
+		"body": [
+			"assertParamCount(){\n\tactual=\\$1\n\texpect=\\$2\n\tif [ ! \\$1 = \\$2 ]; then\n\t\tprintf \"\\$red please input correct param count: \\$2 \\$end \\n\"\n\t\texit 1\n\tfi\n}"
+		],
+		"description": "assert param"
+	}
 }

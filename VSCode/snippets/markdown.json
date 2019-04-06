@@ -73,4 +73,11 @@
 		],
 		"description": "Book title brackets"
 	}
+	,"Separator": {
+		"prefix": "separator",
+		"body": [
+			"************************"
+		],
+		"description": "Separator"
+	}
 }
