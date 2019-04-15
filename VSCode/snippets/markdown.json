@@ -11,6 +11,16 @@
 		"body": ["- [$1]($2)"],
 		"description": "md 链接"
 	}
+	,"MD Official Link": {
+		"prefix": "lo",
+		"body": ["> [Official Site]($1)"],
+		"description": "Official Site"
+	}
+	,"MD Official Doc Link": {
+		"prefix": "ld",
+		"body": ["> [Official Doc]($1)"],
+		"description": "Official Doc"
+	}
 	,"MD Quote Link": {
 		"prefix": "l",
 		"body": ["> [$1]($2)"],
@@ -77,6 +87,13 @@
 		"prefix": "separator",
 		"body": [
 			"************************"
+		],
+		"description": "Separator"
+	}
+	,"ARTS": {
+		"prefix": "arts",
+		"body": [
+			"# ARTS\n\n## Algorithm\n\n## Review\n\n## Tip\n\n## Share\n\n"
 		],
 		"description": "Separator"
 	}
