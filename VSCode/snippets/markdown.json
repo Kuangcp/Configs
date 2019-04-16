@@ -1,5 +1,47 @@
 {
-	"Blog Link": {
+	"Title1": {
+		"prefix": "t1",
+		"body": [
+			"# $1"
+		],
+		"description": "一级标题"
+	}
+	,"Title2": {
+		"prefix": "t2",
+		"body": [
+			"## $1"
+		],
+		"description": "二级标题"
+	}
+	,"Title3": {
+		"prefix": "t3",
+		"body": [
+			"### $1"
+		],
+		"description": "三级标题"
+	}
+	,"Title4": {
+		"prefix": "t4",
+		"body": [
+			"#### $1"
+		],
+		"description": "四级标题"
+	}
+	,"Title5": {
+		"prefix": "t5",
+		"body": [
+			"##### $1"
+		],
+		"description": "五级标题"
+	}
+	,"Title6": {
+		"prefix": "t6",
+		"body": [
+			"###### $1"
+		],
+		"description": "六级标题"
+	}
+	,"Blog Link": {
 		"prefix": "lb",
 		"body": [
 			"> [参考博客: $1]($2)"
@@ -86,7 +128,7 @@
 	,"Separator": {
 		"prefix": "separator",
 		"body": [
-			"************************"
+			"\n************************\n"
 		],
 		"description": "Separator"
 	}
