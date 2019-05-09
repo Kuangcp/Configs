@@ -63,6 +63,11 @@
 		"body": ["> [Official Doc]($1)  "],
 		"description": "Official Doc"
 	}
+	,"Github Link": {
+		"prefix": "lg",
+		"body": ["> [Github]($1)  "],
+		"description": "Github Link"
+	}
 	,"MD Quote Link": {
 		"prefix": "l",
 		"body": ["> [$1]($2)  "],
