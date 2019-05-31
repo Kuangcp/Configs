@@ -1,0 +1,9 @@
+{
+    "static dir server": {
+		"prefix": "nginx.static",
+		"body": [
+			""
+		],
+		"description": "init a main.go file "
+	}
+}
