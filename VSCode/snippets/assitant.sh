@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 userDir=`cd && pwd`
 vscode=$userDir/.config/Code/User/snippets
@@ -13,7 +13,7 @@ white='\033[0;37m'
 end='\033[0m'
 
 help(){
-    printf "Run：$red sh build_link.sh $green<verb> $yellow<args>$end\n"
+    printf "Run：$red sh assitant.sh $green<verb> $yellow<args>$end\n"
     format="  $green%-5s $yellow%-8s$end%-20s\n"
     printf "$format" "-h" "" "help"
     printf "$format" "-a" "" "link all *.json"
