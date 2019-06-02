@@ -2,8 +2,39 @@
     "static dir server": {
 		"prefix": "nginx.static",
 		"body": [
-			""
+			"server { ",
+			"    client_max_body_size 4G; ",
+			"    listen  80;  # listen for ipv4; this line is default and implied ",
+			"    server_name $1; ",
+			"    root $2; ",
+			"    location / { ",
+			"        autoindex on; # 显示索引 ",
+			"        autoindex_exact_size on; # 显示大小 ",
+			"        autoindex_localtime on;  # 显示时间 ",
+			"    } ",
+			"}",
 		],
-		"description": "init a main.go file "
+		"description": "web server for static dir"
+	}
+	,"proxy ": {
+		"prefix": "nginx.proxy",
+		"body": [
+			"upstream one { ",
+			"    server 127.0.0.1:9991;",
+			"}",
+			"server { ",
+			"    listen 80; ",
+			"    server_name a.server.kcp; \n",
+			"    location / { ",
+			"        proxy_set_header X-Real-IP $remote_addr; ",
+			"        proxy_set_header X-Forward-For $proxy_add_x_forwarded_for; ",
+			"        proxy_set_header Host $http_host; ",
+			"        proxy_set_header X-Nginx-Proxt true; \n",
+			"        proxy_pass http://one; ",
+			"        proxy_redirect off; ",
+			"    }",
+			"}"
+		],
+		"description": "proxy to other service"
 	}
 }
