@@ -17,6 +17,7 @@ help(){
     printf "  $start%-16s$end%-20s\n" "repo  z|ba" "4 存放git仓库别名"
     printf "  $start%-16s$end%-20s\n" "cus   z|ba" "3 存放脚本工具别名,路径别名,SSH等自定义信息"
 }
+
 append(){
     echo 'if [ -f ~/.'${1}.sh' ]; then
     . ~/.'${1}.sh'
@@ -56,7 +57,7 @@ case $1 in
     -zsh)
         sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
     ;;
-    -base) 
+    -base.debain) 
         sudo apt install -y telnet git sshpass htop wget curl tree xclip lsof nmap silversearcher-ag thunar python3-pip notepadqq-gtk com.github.jmoerman.go-for-it viewnior  
     ;;
     *)
