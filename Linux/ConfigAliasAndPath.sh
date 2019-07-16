@@ -79,6 +79,7 @@ link_file(){
 install_oh_my_zsh(){
     sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 }
+
 install_z_lua(){
     zlua_path=$userDir'/.oh-my-zsh/custom/plugins'
     if [ ! -d "$zlua_path" ]; then
@@ -111,6 +112,9 @@ case $1 in
     ;;
     -base.apt) 
         sudo apt install -y telnet git sshpass htop wget curl tree xclip lsof nmap silversearcher-ag thunar python3-pip notepadqq-gtk com.github.jmoerman.go-for-it viewnior  
+    ;;
+    -base.pacman)
+        sudo pacman -S xclip nmap the_silver_searcher
     ;;
     *)
         help
