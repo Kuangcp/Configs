@@ -26,3 +26,13 @@
 1. 控件样式 dsemidark
 1. 透明0 终端透明 20% 背景图片 你的名字 [流星图 地址](http://desk.zol.com.cn/bizhi/6849_85488_2.html)
 
+> 设置终端颜色
+```sh
+# Set LS_COLORS environment by Deepin
+if [[ ("$TERM" = *256color || "$TERM" = screen* || "$TERM" = xterm* ) && -f /etc/lscolor-256color ]]; then                                         
+    eval $(dircolors -b /etc/lscolor-256color)
+else
+    eval $(dircolors)
+fi
+```
+
