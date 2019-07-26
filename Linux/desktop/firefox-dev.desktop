@@ -1,8 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Categories = Development;
-Exec=/home/kcp/Application/Net/firefox-dev/firefox -P dev
-Icon=/home/kcp/Application/Net/firefox-dev/browser//chrome/icons/default/default128.png
-Name=Firefox-dev
-Terminal=false
-Type=Application

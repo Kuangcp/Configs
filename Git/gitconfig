@@ -1,6 +1,6 @@
-    [core]
-            quotepath = false
-            autocrlf = false
-            safecrlf = false
-    [credential]
-            helper = store
+[core]
+        quotepath = false
+        autocrlf = false
+        safecrlf = false
+[credential]
+        helper = store
