@@ -207,4 +207,13 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="toMap" value=".collect(Collectors.toMap($Key$, $Value$, (front, next) -&gt; next));" description="toMap" toReformat="false" toShortenFQNames="true">
+    <variable name="Key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
 </templateSet>
