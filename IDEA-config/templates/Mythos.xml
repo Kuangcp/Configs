@@ -216,4 +216,16 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
+  <template name="dto" value="@Data&#10;@Builder&#10;@NoArgsConstructor&#10;@AllArgsConstructor" shortcut="ENTER" description="dto annotation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="dto_import" value="import lombok.AllArgsConstructor;&#10;import lombok.Builder;&#10;import lombok.Data;&#10;import lombok.NoArgsConstructor;" shortcut="ENTER" description="dto annotation import" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
 </templateSet>
