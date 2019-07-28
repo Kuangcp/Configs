@@ -7,8 +7,8 @@
 > [配置文件的详解](/Database/redis)
 
 ## IDE
-### idea
-> [设置的导出jar](/Idea)
+### IDEA
+
 
 ## Java
 ## Linux
