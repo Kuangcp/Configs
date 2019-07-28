@@ -12,6 +12,7 @@ help(){
     printf "  $start%-16s$end%-20s\n" "-zsh" "安装 oh-my-zsh"
     printf "  $start%-16s$end%-20s\n" "-zlua" "安装 oh-my-zsh 后 安装 zlua"
     printf "  $start%-16s$end%-20s\n" "-base.apt" "通过 apt 安装 常用工具"
+    printf "  $start%-16s$end%-20s\n" "-base.pacman" "通过 pacman 安装 常用工具"
 
     printf "  $start%-16s$end%-20s\n" "-l z|ba path " "1 存放环境变量"
     printf "  $start%-16s$end%-20s\n" "-l z|ba sys"  "2 常用别名, 公共"
@@ -114,7 +115,7 @@ case $1 in
         sudo apt install -y telnet git sshpass htop wget curl tree xclip lsof nmap silversearcher-ag thunar python3-pip notepadqq-gtk com.github.jmoerman.go-for-it viewnior  
     ;;
     -base.pacman)
-        sudo pacman -S xclip nmap the_silver_searcher
+        sudo pacman -S zsh dash xclip nmap the_silver_searcher tree tmux 
     ;;
     *)
         help

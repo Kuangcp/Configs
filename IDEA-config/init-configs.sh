@@ -30,9 +30,20 @@ init(){
     idea_config_dir=$1
     is_idea=$(echo $idea_config_dir | grep -ie "idea.*/config")
     if [ "$is_idea" = "" ];then
-        log_error "please use idea config dir"        
+        log_error "please use idea config dir"
+        exit 1
     fi
     # TODO create all file link to config dir
+    for dir in $(ls); do
+        if [ -d $dir ]; then
+            echo $dir
+            cd $dir
+            mkdir -p $idea_config_dir/$dir
+            echo  $(pwd) $idea_config_dir/$dir
+            ln -s $(pwd)/* $idea_config_dir/$dir
+            cd ..
+        fi
+    done
 }
 
 case $1 in 
