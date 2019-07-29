@@ -103,7 +103,7 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
     <mouse-shortcut keystroke="button5" />
-    <keyboard-shortcut first-keystroke="alt x" />
+    <keyboard-shortcut first-keystroke="shift alt z" />
   </action>
   <action id="GotoBookmark0" />
   <action id="GotoBookmark1" />
