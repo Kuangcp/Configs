@@ -91,6 +91,7 @@
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="ExportToTextFile" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl f12" />
     <keyboard-shortcut first-keystroke="alt s" />
@@ -124,6 +125,9 @@
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="shift f2" />
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
