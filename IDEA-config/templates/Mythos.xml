@@ -91,7 +91,7 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
-  <template name="doc" value="/**" description="java doc" toReformat="false" toShortenFQNames="true">
+  <template name="dc" value="/**" description="java doc" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
@@ -179,7 +179,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="docl" value="/** $Value$ */" description="java doc one line" toReformat="false" toShortenFQNames="true">
+  <template name="dcl" value="/** $Value$ */" description="java doc one line" toReformat="false" toShortenFQNames="true">
     <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
@@ -226,6 +226,34 @@
     <context>
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="ifnonnull" value="if (Objects.nonNull($Value$)) {&#10;  $Start$&#10;}" description="Objects.nonNull()" toReformat="false" toShortenFQNames="true">
+    <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Start" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="optn" value="Optional.ofNullable($Value$)" description="Optional.ofNullable()" toReformat="false" toShortenFQNames="true">
+    <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="optm" value="Optional.empty();" description="Optional.empty()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="opt" value="Optional.of($Value$)" description="Optional.of()" toReformat="false" toShortenFQNames="true">
+    <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
 </templateSet>
