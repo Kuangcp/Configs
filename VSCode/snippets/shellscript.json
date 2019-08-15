@@ -66,4 +66,32 @@
 		],
 		"description": "assert param"
 	}
+	,"string first right": {
+		"prefix": "str.fr",
+		"body": [
+			"\\${$1#*$2}"
+		],
+		"description": "string first right"
+	}
+	,"string last right": {
+		"prefix": "str.lr",
+		"body": [
+			"\\${$1##*$2}"
+		],
+		"description": "string last right"
+	}
+	,"string first left": {
+		"prefix": "str.fl",
+		"body": [
+			"\\${$1%%$2*}"
+		],
+		"description": "string first left"
+	}
+	,"string last left": {
+		"prefix": "str.ll",
+		"body": [
+			"\\${$1%$2*}"
+		],
+		"description": "string last left"
+	}
 }
