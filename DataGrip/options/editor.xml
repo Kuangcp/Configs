@@ -1,0 +1,7 @@
+<application>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="15" />
+    <option name="FONT_FAMILY" value="IBM Plex Mono SemiBold" />
+    <option name="LINE_SPACING" value="0.9" />
+  </component>
+</application>

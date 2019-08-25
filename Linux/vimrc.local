@@ -3,15 +3,18 @@ set autowrite		" Automatically save before commands like :next and :make
 set nocompatible
 set number
 filetype on 
+syntax on
 set history=1000
 set autoindent
 set smartindent
 set tabstop=4
+set expandtab
 set shiftwidth=4
 set showmatch
 set guioptions=T
 set ruler
-set nohls
+set hls
 set backspace=2
+imap jk <Esc> 
 
-imap jj <Esc>
+set relativenumber " 设置相对行号
