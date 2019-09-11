@@ -24,6 +24,7 @@ help(){
     printf "Run：$red sh init-configs.sh $green<verb> $yellow<args>$end\n"
     format="  $green%-6s $yellow%-8s$end%-20s\n"
     printf "$format" "-h" "" "帮助"
+    printf "$format" "dir" "" "idea config dir"
 }
 
 init(){
