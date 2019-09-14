@@ -120,7 +120,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="errore" value="log.error(e.getMessage(), e);" description="log.error(e.getMessage(), e);" toReformat="false" toShortenFQNames="true">
+  <template name="errore" value="log.error(&quot;&quot;, e);" description="log.error(e.getMessage(), e);" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
@@ -254,6 +254,18 @@
     <context>
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="infov" value="log.info(&quot;$Var$={}&quot;, $Var$);" description="log.info()" toReformat="false" toShortenFQNames="true">
+    <variable name="Var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="infos" value="log.info(&quot;$Var$&quot;);" description="log.info()" toReformat="false" toShortenFQNames="true">
+    <variable name="Var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
     </context>
   </template>
 </templateSet>
