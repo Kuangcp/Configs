@@ -127,6 +127,9 @@ case $1 in
     -base.pacman)
         sudo pacman -S zsh dash xclip nmap the_silver_searcher tree tmux 
     ;;
+    -bash.python)
+        sudo pip install qrcode httpie
+    ;;
     *)
         help
     ;;
