@@ -207,7 +207,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="toMap" value=".collect(Collectors.toMap($Key$, $Value$, (front, next) -&gt; next));" description="toMap" toReformat="false" toShortenFQNames="true">
+  <template name="toMap" value=".collect(Collectors.toMap($Key$, $Value$, (front, current) -&gt; current));" description="toMap" toReformat="false" toShortenFQNames="true">
     <variable name="Key" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -266,6 +266,28 @@
     <variable name="Var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cnextempty" value="CollectionUtils.isEmpty($Value$)" description="CollectionUtils.isEmpty()" toReformat="false" toShortenFQNames="true">
+    <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="cnonempty" value="CollectionUtils.isNotEmpty($Value$)" description="CollectionUtils.isNotEmpty()" toReformat="false" toShortenFQNames="true">
+    <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="Oeq" value="Objects.equals($A$, $B$)" description="Objects.equals(a,b)" toReformat="false" toShortenFQNames="true">
+    <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="B" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
 </templateSet>
