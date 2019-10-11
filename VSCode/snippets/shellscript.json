@@ -66,6 +66,19 @@
 		],
 		"description": "assert param"
 	}
+	,"kill process": {
+		"prefix": "killProcess",
+		"body": [
+			"killProcess(){",
+			"\tregex=\\$1",
+			"\tlast_pid=\\$(ps aux | grep -e \"\\$regex\" | grep -v grep | awk '{print \\$2}')",
+			"\tif test -z \\$last_pid ; then \n\t\tlog_error 'not found process'\n\t\texit\n\tfi",
+			"\tlog_error \"killed \\$last_pid\"",
+			"\tkill \\$last_pid",
+			"}"
+		],
+		"description": "assert param"
+	}
 	,"string first right": {
 		"prefix": "str.fr",
 		"body": [
