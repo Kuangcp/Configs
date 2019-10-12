@@ -144,4 +144,25 @@
 		],
 		"description": "Separator"
 	}
+	,"checklist": {
+		"prefix": "checklist",
+		"body": [
+			"# checklist",
+			"## 上线前\n",
+			"1. 合并master 发布 release ",
+			"\t| 项目 | 版本号 |",
+			"\t|:----|:----|",
+			"\t||\n",
+			"## 上线时\n",
+			"### 分支上线顺序",
+			"> 从上至下依次上线\n",
+			"| 项目 | 分支 |",
+			"|:----|:----|",
+			"||\n",
+			"## 上线后\n",
+			"## 回滚步骤",
+			"1. 按上线顺序`倒序`回滚\n"
+		],
+		"description": "Separator"
+	}
 }
