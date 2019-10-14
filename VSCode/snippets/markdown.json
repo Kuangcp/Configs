@@ -149,7 +149,7 @@
 		"body": [
 			"# checklist",
 			"## 上线前\n",
-			"1. 合并master 发布 release ",
+			"1. 合并master 发布 release \n",
 			"\t| 项目 | 版本号 |",
 			"\t|:----|:----|",
 			"\t||\n",
