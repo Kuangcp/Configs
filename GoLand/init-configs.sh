@@ -24,12 +24,14 @@ help(){
     printf "Run：$red sh init-configs.sh $green<verb> $yellow<args>$end\n"
     format="  $green%-6s $yellow%-8s$end%-20s\n"
     printf "$format" "-h" "" "帮助"
-    printf "$format" "dir" "" "idea config dir"
+    printf "$format" "i" "dir" "idea config dir"
+    printf "$format" "g" "dir" "goland config dir"
 }
 
 init(){
     idea_config_dir=$1
-    is_idea=$(echo $idea_config_dir | grep -ie "idea.*/config")
+    echo $2
+    is_idea=$(echo $idea_config_dir | grep -ie $2".*/config")
     if [ "$is_idea" = "" ];then
         log_error "please use idea config dir"
         exit 1
@@ -41,7 +43,7 @@ init(){
             cd $dir
             mkdir -p $idea_config_dir/$dir
             echo  $(pwd) $idea_config_dir/$dir
-            ln -s $(pwd)/* $idea_config_dir/$dir
+            ln -s $(pwd) $idea_config_dir/$dir
             cd ..
         fi
     done
@@ -49,8 +51,15 @@ init(){
 
 case $1 in 
     -h)
-        help ;;
+        help 
+    ;;
+    -idea|i)
+        init $2 'idea'
+    ;;
+    -go|g)
+        init $2 'goland'
+    ;;
     *)
-        init $1
+        help 
     ;;
 esac
