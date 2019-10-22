@@ -28,22 +28,31 @@ help(){
     printf "$format" "g" "dir" "goland config dir"
 }
 
-init(){
+create_link(){
     idea_config_dir=$1
-    echo $2
     is_idea=$(echo $idea_config_dir | grep -ie $2".*/config")
     if [ "$is_idea" = "" ];then
         log_error "please use idea config dir"
         exit 1
     fi
-    # TODO create all file link to config dir
+
     for dir in $(ls); do
         if [ -d $dir ]; then
-            echo $dir
+            printf "\n$cyan  %s $end \n" $dir
             cd $dir
             mkdir -p $idea_config_dir/$dir
-            echo  $(pwd) $idea_config_dir/$dir
-            ln -s $(pwd) $idea_config_dir/$dir
+            path=$(pwd)
+            printf "$green   ln -s %s $yellow %s $end\n" $path $idea_config_dir/$dir
+            echo $path
+
+            count=$(ls -l $path | wc -l)
+            echo $count
+            if test $count = 1; then
+                cd ..
+                continue
+            fi
+            
+            ln -s $(pwd)/* $idea_config_dir/$dir
             cd ..
         fi
     done
@@ -54,10 +63,12 @@ case $1 in
         help 
     ;;
     -idea|i)
-        init $2 'idea'
+        cd IDEA
+        create_link $2 'idea'
     ;;
     -go|g)
-        init $2 'goland'
+        cd GoLand
+        create_link $2 'goland'
     ;;
     *)
         help 
