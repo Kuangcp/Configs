@@ -1,0 +1,32 @@
+<scheme name="Mythos" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2019-10-23T13:35:09</property>
+    <property name="ide">GoLand</property>
+    <property name="ideVersion">2019.2.3.0.0</property>
+    <property name="modified">2019-10-23T13:44:10</property>
+    <property name="originalScheme">_@user_Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="GO_EXPORTED_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="cce874" />
+      </value>
+    </option>
+    <option name="GO_FUNCTION_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="5fbebb" />
+      </value>
+    </option>
+    <option name="GO_LOCAL_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="GO_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="338456" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

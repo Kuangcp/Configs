@@ -43,10 +43,10 @@ create_link(){
             mkdir -p $idea_config_dir/$dir
             path=$(pwd)
             printf "$green   ln -s %s $yellow %s $end\n" $path $idea_config_dir/$dir
-            echo $path
+            # echo $path
 
             count=$(ls -l $path | wc -l)
-            echo $count
+            # echo $count
             if test $count = 1; then
                 cd ..
                 continue
