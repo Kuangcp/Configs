@@ -1,21 +1,4 @@
 # 配置文件仓库
+> dotfile 的初级版
 
-## 数据库
-### mysql
-
-### redis
-> [配置文件的详解](/Database/redis)
-
-## IDE
-### IDEA
-
-
-## Java
-## Linux
-
-### 系统初始化
-> [执行脚本, 方便配置系统有关参数](/Linux/init.sh)
-
-## VSCode
-
-
+个人配置, 快速搭建开发环境
