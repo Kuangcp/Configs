@@ -105,6 +105,9 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="shift alt z" />
   </action>
+  <action id="Go.NewGoFile">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
   <action id="GotoBookmark0" />
   <action id="GotoBookmark1" />
   <action id="GotoBookmark5" />
