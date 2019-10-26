@@ -1,0 +1,10 @@
+<templateSet group="Mythos">
+  <template name="fori" value="for i := $Start$; i &lt; $End$; i++ {&#10;    $Last$&#10;}" description="for i" toReformat="false" toShortenFQNames="true">
+    <variable name="Start" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Last" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
