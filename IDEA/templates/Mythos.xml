@@ -207,7 +207,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="toMap" value=".collect(Collectors.toMap($Key$, $Value$, (front, current) -&gt; current));" description="toMap" toReformat="false" toShortenFQNames="true">
+  <template name="toMap" value=".collect(Collectors.toMap(v -&gt; $Key$, $Value$, (front, current) -&gt; current));" description="toMap" toReformat="false" toShortenFQNames="true">
     <variable name="Key" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -296,6 +296,14 @@
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="groupBy" value=".collect(Collectors.groupingBy($Expr$));" description="groupingBy" toReformat="false" toShortenFQNames="true">
+    <variable name="Expr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>

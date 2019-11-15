@@ -107,4 +107,11 @@
 		],
 		"description": "string last left"
 	}
+	,"string in": {
+		"prefix": "str.in",
+		"body": [
+			"has_str=\\$(echo $1 | grep '$2')\nif test -z \\$has_str;then\n     \nelse\n    \nfi"
+		],
+		"description": "string last left"
+	}
 }
