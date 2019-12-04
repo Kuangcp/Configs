@@ -117,7 +117,7 @@
 		"description": "图片链接"
 	}
 	,"TODO": {
-		"prefix": "td",
+		"prefix": "tt",
 		"body": [
 			"- [ ] $1"
 		],
