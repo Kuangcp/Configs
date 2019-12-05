@@ -1,0 +1,32 @@
+{
+    "init uml struct": {
+		"prefix": "plant.uml.init",
+		"body": [
+			"@startuml $1",
+			"note \"\" as Tip ",
+			"@enduml",
+		],
+		"description": "init plant uml"
+    },
+    "extends": {
+		"prefix": "plant.uml.extends",
+		"body": [
+			"$1 <|-- $2",
+		],
+		"description": "plant uml, extends"
+    },
+    "implements": {
+		"prefix": "plant.uml.impl",
+		"body": [
+			"$1 <|.. $2",
+		],
+		"description": "plant uml, implements"
+    },
+    "compensation": {
+		"prefix": "plant.uml.comp",
+		"body": [
+			"$1 o-- $2",
+		],
+		"description": "plant uml, compensation"
+    },
+}
