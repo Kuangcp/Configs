@@ -18,6 +18,9 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id="Console.Jdbc.ExplainPlan">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
