@@ -6,7 +6,9 @@
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="ActivateDebugToolWindow" />
-  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="ActivateRunToolWindow" />
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt s" />
