@@ -7,7 +7,7 @@
     "extensions.ignoreRecommendations": false,
     "workbench.statusBar.visible": true,
     "editor.fontSize": 15,
-    "editor.fontFamily": "'IBM Plex Mono','DeJaVu Sans Mono', 'monospace', 'Droid Sans Fallback'",
+    "editor.fontFamily": "'IBM Plex Mono','kaiti",
     "workbench.iconTheme": "vscode-icons",
     "sqltools.telemetryUUID": "41c3d85b-df7d-4cbf-94aa-4927cd4d1826"
 }
