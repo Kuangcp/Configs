@@ -1,9 +1,11 @@
+filetype on " 文件类型侦测
+syntax enable
+syntax on
+
 set showcmd		" Show (partial) command in status line.
 set autowrite		" Automatically save before commands like :next and :make
 set nocompatible
 set number
-filetype on 
-syntax on
 set history=1000
 set autoindent
 set smartindent
@@ -12,9 +14,25 @@ set expandtab
 set shiftwidth=4
 set showmatch
 set guioptions=T
-set ruler
-set hls
+set ruler " 总是显示光标
+set cursorline  "高亮显示当前行
+set laststatus=2
+set virtualedit=block,onemore " 允许光标出现在行末无字符处
+
 set backspace=2
 imap jk <Esc> 
 
 set relativenumber " 设置相对行号
+
+" 搜索
+set hlsearch " 高亮搜索结果
+set incsearch
+" set ignorecase " 搜索忽略大小写
+
+" 编码
+set langmenu=zh_CN.UTF-8
+set termencoding=utf-8
+set encoding=utf-8
+
+" TODO 配置
+" TODO 下载 gradle 和 go 加版本选择
