@@ -36,4 +36,8 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="ctrl escape" />
+  </action>
 </keymap>
