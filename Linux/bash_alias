@@ -29,7 +29,7 @@ set_bash_prompt(){
 }
 PROMPT_COMMAND="set_bash_prompt; $PROMPT_COMMAND"
 ## →
-## PS1="${yellow}\u@\h${nocolor}:${lightpurple}\w ${nocolor}\$ "  ${lightpurple}\u
+## PS1="${yellow}\u@\h${nocolor}:${lightpurple}\w ${nocolor}\$ "
 
 ## PS1="${lightcyan}\t ${lightgreen}\w ${yellow}→ ${nocolor}"
 
