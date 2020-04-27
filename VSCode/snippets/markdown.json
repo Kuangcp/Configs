@@ -44,7 +44,7 @@
 	,"Blog Link": {
 		"prefix": "lb",
 		"body": [
-			"> [参考博客: $1]($2)  "
+			"> [参考: $1]($2)  "
 		],
 		"description": "md 的链接"
 	}
