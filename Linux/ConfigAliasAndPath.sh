@@ -84,11 +84,15 @@ install_oh_my_zsh(){
     
     # bullet-train theme
     wget https://raw.githubusercontent.com/caiogondim/bullet-train.zsh/master/bullet-train.zsh-theme -O ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes
-    wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
-    wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
-    mv PowerlineSymbols.otf ~/.local/share/fonts/
-    fc-cache -vf ~/.local/share/fonts/
-    mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+    
+    echo "please download font: https://github.com/microsoft/cascadia-code/releases"
+}
+
+install_tmux(){
+    ln -s `pwd`/tmux/tmux.conf ~/.tmux.conf
+    git clone --depth 1 https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    tmux source ~/.tmux.conf
+    echo "please type: Ctrl A, I"
 }
 
 install_z_lua(){
@@ -120,6 +124,9 @@ case $1 in
     ;;
     -zlua)
         install_z_lua
+    ;;
+    -tmux)
+        install_tmux
     ;;
     -base.apt) 
         sudo apt install -y telnet git sshpass htop wget curl tree xclip lsof nmap silversearcher-ag thunar python3-pip notepadqq-gtk com.github.jmoerman.go-for-it viewnior  
