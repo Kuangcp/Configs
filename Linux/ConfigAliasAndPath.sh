@@ -10,6 +10,7 @@ help(){
     printf "运行：dash init.sh $start <params> $end"
     printf "  $start%-16s$end%-20s\n" "-h|h|help" "帮助"
     printf "  $start%-16s$end%-20s\n" "-zsh" "安装 oh-my-zsh"
+    printf "  $start%-16s$end%-20s\n" "-tmux" "安装 Tmux"
     printf "  $start%-16s$end%-20s\n" "-zlua" "安装 oh-my-zsh 后 安装 zlua"
     printf "  $start%-16s$end%-20s\n" "-base.apt" "通过 apt 安装 常用工具"
     printf "  $start%-16s$end%-20s\n" "-base.pacman" "通过 pacman 安装 常用工具"
@@ -83,7 +84,7 @@ install_oh_my_zsh(){
     git clone --depth 1 https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
     
     # bullet-train theme
-    wget https://raw.githubusercontent.com/caiogondim/bullet-train.zsh/master/bullet-train.zsh-theme -O ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes
+    wget https://raw.githubusercontent.com/caiogondim/bullet-train.zsh/master/bullet-train.zsh-theme -O ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/bullet-train.zsh-theme
     
     echo "please download font: https://github.com/microsoft/cascadia-code/releases"
 }
@@ -91,6 +92,7 @@ install_oh_my_zsh(){
 install_tmux(){
     ln -s `pwd`/tmux/tmux.conf ~/.tmux.conf
     git clone --depth 1 https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    tmux 
     tmux source ~/.tmux.conf
     echo "please type: Ctrl A, I"
 }

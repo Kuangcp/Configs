@@ -31,10 +31,10 @@ help(){
 create_link(){
     idea_config_dir=$1
     is_idea=$(echo $idea_config_dir | grep -ie $2".*/config")
-    if [ "$is_idea" = "" ];then
-        log_error "please use idea config dir"
-        exit 1
-    fi
+    #if [ "$is_idea" = "" ];then
+    #    log_error "please use idea config dir"
+    #    exit 1
+    #fi
 
     for dir in $(ls); do
         if [ -d $dir ]; then
