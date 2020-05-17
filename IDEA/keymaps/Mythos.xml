@@ -35,6 +35,9 @@
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
@@ -144,7 +147,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
   </action>
   <action id="JUnitTestPlugin.ToggleTestCaseTestedClassAction">
-    <keyboard-shortcut first-keystroke="shift ctrl t" />
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
   <action id="Maven.Reimport">
@@ -207,6 +209,7 @@
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
+  <action id="ServiceView.ShowServices" />
   <action id="ShowSettings" />
   <action id="ShowUsages" />
   <action id="SmartStepInto">
