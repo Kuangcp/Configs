@@ -83,10 +83,8 @@ install_oh_my_zsh(){
     git clone --depth 1 https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     git clone --depth 1 https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
     
-    # bullet-train theme
-    wget https://raw.githubusercontent.com/caiogondim/bullet-train.zsh/master/bullet-train.zsh-theme -O ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/bullet-train.zsh-theme
-    
     echo "please download font: https://github.com/microsoft/cascadia-code/releases"
+    echo "Install p10k theme https://github.com/romkatv/powerlevel10k#oh-my-zsh "
 }
 
 install_tmux(){
