@@ -34,5 +34,3 @@ set langmenu=zh_CN.UTF-8
 set termencoding=utf-8
 set encoding=utf-8
 
-" TODO 配置
-" TODO 下载 gradle 和 go 加版本选择
