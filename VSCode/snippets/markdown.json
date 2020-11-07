@@ -137,6 +137,13 @@
 		],
 		"description": "Separator"
 	}
+	,"Short Separator": {
+		"prefix": "ss",
+		"body": [
+			"\n***\n"
+		],
+		"description": "Separator Short"
+	}
 	,"ARTS": {
 		"prefix": "arts",
 		"body": [
