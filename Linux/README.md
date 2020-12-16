@@ -19,7 +19,10 @@
 1. cpu信息文件
 1. vim配置文件
 
-### Qterminal
+## tmux
+[tmux配置仓库](https://github.com/gpakosz/.tmux)
+
+## Qterminal
 > 一个比较好用的终端
 
 1. 字体: Source Code Pro for Powerline 11 pt
