@@ -17,7 +17,7 @@
 
 1. host文件
 1. cpu信息文件
-1. vim配置文件
+1. vim配置文件 `cp vimrc.local ~/.vimrc`
 
 ## tmux
 [tmux配置仓库](https://github.com/gpakosz/.tmux)
