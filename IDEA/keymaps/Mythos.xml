@@ -143,8 +143,7 @@
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
   <action id="IntroduceVariable">
-    <keyboard-shortcut first-keystroke="ctrl alt v" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt j" />
+    <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
   <action id="JUnitTestPlugin.ToggleTestCaseTestedClassAction">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
@@ -178,7 +177,6 @@
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="ctrl escape" />
   </action>
   <action id="RenameElement">
@@ -241,4 +239,5 @@
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="alt 0" />
   </action>
+  <action id="context.load" />
 </keymap>
