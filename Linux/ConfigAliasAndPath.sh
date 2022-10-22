@@ -128,6 +128,9 @@ case $1 in
     -tmux)
         install_tmux
     ;;
+    -base.server.apt) 
+        sudo apt install -y telnet git htop wget curl tree  lsof nmap silversearcher-ag python3-pip net-tools unzip
+    ;;
     -base.apt) 
         sudo apt install -y telnet git sshpass htop wget curl tree xclip lsof nmap silversearcher-ag thunar python3-pip notepadqq-gtk com.github.jmoerman.go-for-it viewnior  
     ;;
