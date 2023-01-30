@@ -8,6 +8,9 @@
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="ActivateEndpointsToolWindow">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
   <action id="ActivateGradleToolWindow">
