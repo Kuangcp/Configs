@@ -4,12 +4,21 @@
     <property name="created">2019-07-26T11:01:02</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2019.1.1.0.0</property>
-    <property name="modified">2019-07-26T11:01:13</property>
+    <property name="modified">2023-06-28T10:20:28</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="0.9" />
+  <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="EDITOR_FONT_NAME" value="IBM Plex Mono" />
   <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
-  <option name="CONSOLE_LINE_SPACING" value="0.9" />
+  <option name="CONSOLE_FONT_SIZE" value="15" />
   <attributes>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="bcbec4" />
+        <option name="BACKGROUND" value="2B2D30" />
+      </value>
+    </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="89ab2f" />
@@ -33,15 +42,9 @@
         <option name="FOREGROUND" value="629755" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JAVA_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="dcccae" />
-      </value>
-    </option>
-    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
-      <value>
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="KOTLIN_LABEL">
