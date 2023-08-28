@@ -313,4 +313,11 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
+  <template name="sleep_hours" value="TimeUnit.HOURS.sleep(1);" description="TimeUnit.HOURS.sleep(1);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
 </templateSet>

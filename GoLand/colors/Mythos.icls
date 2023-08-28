@@ -1,10 +1,10 @@
 <scheme name="Mythos" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2022-03-27T23:15:05</property>
+    <property name="created">2019-10-23T13:35:09</property>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2021.3.4.0.0</property>
-    <property name="modified">2022-03-27T23:15:09</property>
-    <property name="originalScheme">Mythos</property>
+    <property name="ideVersion">2019.2.3.0.0</property>
+    <property name="modified">2022-04-03T01:58:04</property>
+    <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
   <attributes>
     <option name="GO_EXPORTED_FUNCTION">
