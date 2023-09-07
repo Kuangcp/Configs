@@ -161,6 +161,7 @@
   <action id="Maven.ReimportProject">
     <keyboard-shortcut first-keystroke="alt f5" />
   </action>
+  <action id="Move" />
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="alt back_slash" />
   </action>
@@ -191,7 +192,7 @@
     <keyboard-shortcut first-keystroke="shift alt k" />
   </action>
   <action id="Resume">
-    <keyboard-shortcut first-keystroke="ctrl 9" />
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
