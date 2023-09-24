@@ -320,4 +320,10 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
+  <template name="deflog" value="private final Logger log = LoggerFactory.getLogger($Var$);" description="def log" toReformat="false" toShortenFQNames="true">
+    <variable name="Var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
