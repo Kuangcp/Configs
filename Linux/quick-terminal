@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# 可修改为对应的客户端
+tmd=xfce4-terminal
+
+PID=$(pgrep -x $tmd)
+if [[ $PID -ne "" ]]
+then
+    xdotool windowactivate `xdotool search --pid $PID | tail -1`
+else
+    $tmd
+fi
