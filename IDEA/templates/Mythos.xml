@@ -126,7 +126,8 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
-  <template name="tc" value="try{&#10;  &#10;}catch (Exception e){&#10;  &#10;}" description="try catch" toReformat="false" toShortenFQNames="true">
+  <template name="tc" value="try {&#10;    $V$&#10;} catch (Exception e) {&#10;&#10;}" description="try catch" toReformat="false" toShortenFQNames="true">
+    <variable name="V" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
