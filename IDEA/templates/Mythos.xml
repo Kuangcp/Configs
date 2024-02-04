@@ -327,7 +327,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="cnextempty.if" value="if (CollectionUtils.isEmpty($Value$)){&#10;    $conf$&#10;}" description="CollectionUtils.isEmpty()" toReformat="false" toShortenFQNames="true">
+  <template name="if.cnextempty" value="if (CollectionUtils.isEmpty($Value$)){&#10;    $conf$&#10;}" description="CollectionUtils.isEmpty()" toReformat="false" toShortenFQNames="true">
     <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="conf" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
