@@ -335,4 +335,9 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="go" value="try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {&#10;    executor.submit(() -&gt;{&#10;&#10;    });&#10;}" description="virtual thread" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
