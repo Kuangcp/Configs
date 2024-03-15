@@ -173,7 +173,7 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
-  <template name="asq-import" value="import static org.hamcrest.Matchers.equalTo;&#10;import static org.junit.Assert.assertThat;" description="import for asq" toReformat="false" toShortenFQNames="true">
+  <template name="asq-import" value="import static org.hamcrest.Matchers.equalTo;&#10;import static org.hamcrest.MatcherAssert.assertThat;" description="import for asq" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
