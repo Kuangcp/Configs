@@ -350,4 +350,11 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
+  <template name="Lrun" value="() -&gt; {}" description="Lambda runnable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
 </templateSet>
