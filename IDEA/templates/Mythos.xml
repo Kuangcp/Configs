@@ -15,7 +15,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="main" value="public static void main(String[] args){&#10;  $END$&#10;}" description="main method" toReformat="false" toShortenFQNames="true">
+  <template name="main" value="public static void main(String[] args) {&#10;    $END$&#10;}" description="main method" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
@@ -40,7 +40,7 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
-  <template name="forlist" value="$List$.forEach(item -&gt; {&#10;  $End$&#10;});" description="iterate list with lambda" toReformat="false" toShortenFQNames="true">
+  <template name="forlist" value="$List$.forEach(item -&gt; {&#10;    $End$&#10;});" description="iterate list with lambda" toReformat="false" toShortenFQNames="true">
     <variable name="List" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -49,7 +49,7 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
-  <template name="formap" value="$Map$.forEach((key, value) -&gt; {&#10;  $End$&#10;});" description="iterate map with lambda" toReformat="false" toShortenFQNames="true">
+  <template name="formap" value="$Map$.forEach((key, value) -&gt; {&#10;    $End$&#10;});" description="iterate map with lambda" toReformat="false" toShortenFQNames="true">
     <variable name="Map" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -95,7 +95,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="ifnull" value="if (Objects.isNull($Value$)) {&#10;  $Start$&#10;}" description="Objects.isNull()" toReformat="false" toShortenFQNames="true">
+  <template name="ifnull" value="if (Objects.isNull($Value$)) {&#10;    $Start$&#10;}" description="Objects.isNull()" toReformat="false" toShortenFQNames="true">
     <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Start" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -142,7 +142,7 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="eenum" value="public enum $NAME${&#10;  $Element$(0), $Element2$(1);&#10;  &#10;  private int value;&#10;  &#10;  $NAME$ (int value){&#10;    this.value = value;&#10;  }&#10;  &#10;  public int getValue() {&#10;    return this.value;&#10;  }&#10;  &#10;  public static $NAME$ of(int value) {&#10;    for ($NAME$ type : $NAME$.values()) {&#10;      if (type.value == value) {&#10;        return type;&#10;      }&#10;    }&#10;    return null;&#10;  }&#10;}" description="create a enum" toReformat="false" toShortenFQNames="true">
+  <template name="eenum" value="public enum $NAME${&#10;    $Element$(0), $Element2$(1);&#10;    &#10;    private int value;&#10;    &#10;    $NAME$ (int value){&#10;        this.value = value;&#10;    }&#10;    &#10;    public int getValue() {&#10;        return this.value;&#10;    }&#10;    &#10;    public static $NAME$ of(int value) {&#10;        for ($NAME$ type : $NAME$.values()) {&#10;            if (type.value == value) {&#10;                return type;&#10;            }&#10;        }&#10;        return null;&#10;    }&#10;}" description="create a enum" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Element" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Element2" expression="" defaultValue="" alwaysStopAt="true" />
@@ -228,7 +228,7 @@
       <option name="JSP" value="true" />
     </context>
   </template>
-  <template name="ifnonnull" value="if (Objects.nonNull($Value$)) {&#10;  $Start$&#10;}" description="Objects.nonNull()" toReformat="false" toShortenFQNames="true">
+  <template name="ifnonnull" value="if (Objects.nonNull($Value$)) {&#10;    $Start$&#10;}" description="Objects.nonNull()" toReformat="false" toShortenFQNames="true">
     <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Start" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -350,6 +350,20 @@
     </context>
   </template>
   <template name="Lrun" value="() -&gt; {}" description="Lambda runnable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="Lvar" value="v -&gt; " description="Lambda var" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="LL" value="@Slf4j" description="Lombok Log annotation" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
