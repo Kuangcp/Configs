@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Development;
+Exec=/home/kcp/Application/Tool/jmc-9.0.0_linux-x64/JDK-Mission-Control/jmc-run.sh
+Icon=/home/kcp/Application/Tool/jmc-9.0.0_linux-x64/JDK-Mission-Control/icon.xpm
+Name=JMC 9
+Terminal=false
+Type=Application
+
