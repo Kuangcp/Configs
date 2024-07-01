@@ -370,4 +370,25 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
+  <template name="sleep_seconds" value="TimeUnit.SECONDS.sleep(1);" description="TimeUnit.SECONDS.sleep(1);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="tcf" value="try {&#10;    $V$&#10;} catch (Exception e) {&#10;    log.error(&quot;&quot;, e);&#10;} finally {&#10;    &#10;}" description="try catch finally" toReformat="false" toShortenFQNames="true">
+    <variable name="V" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="fline" value="List&lt;String&gt; lines = Files.readAllLines(Paths.get(&quot;$VAL$&quot;));" description="read lines" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
