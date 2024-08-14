@@ -340,7 +340,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="getMethod" value="@GetMapping(&quot;/$API$&quot;)&#10;public String get$API$() {&#10;    $End$&#10;    return &quot;OK&quot;;&#10;}" description="create a simple get method" toReformat="false" toShortenFQNames="true">
+  <template name="getMethod" value="@GetMapping(&quot;/$API$&quot;)&#10;public String $API$() {&#10;    $End$&#10;    return &quot;OK&quot;;&#10;}" description="create a simple get method" toReformat="false" toShortenFQNames="true">
     <variable name="API" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
