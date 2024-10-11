@@ -12,11 +12,15 @@
 (function () {
   "use strict";
 
+  // iframe 不执行
+  if (window !== window.top) {
+    return;
+  }
   let Container = document.createElement("div");
   Container.id = "md-link-copier";
   Container.style.position = "fixed";
-  Container.style.left = "80px";
-  Container.style.top = "600px";
+  Container.style.left = "1vw";
+  Container.style.top = "90vh";
   Container.style["z-index"] = "999999";
   Container.innerHTML = `<button id="copy-link-btn" style="position:absolute; left:30px; top:20px; background-color:#7597de;border-radius: 1px;border: none;padding: 3px;"> Link </button>`;
 
