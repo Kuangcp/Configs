@@ -391,4 +391,32 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="rerr" value="return AjaxResult.error(&quot;$MSG$&quot;);" description="return AjaxResult.error(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="my_foreach" value="&lt;foreach collection=&quot;$List$&quot; item=&quot;id&quot; open=&quot;(&quot; separator=&quot;,&quot; close=&quot;)&quot;&gt;&#10;    #{id}&#10;&lt;/foreach&gt; " description="xml foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="List" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="my_if_foreach" value="&lt;if test=&quot;$param$ != null and $param$.size &gt; 0&quot;&gt;&#10;    and $field$ in&#10;    &lt;foreach collection='$param$' item='id' open='(' separator=',' close=')'&gt;&#10;        #{id}&#10;    &lt;/foreach&gt;&#10;&lt;/if&gt;" description="xml if foreach" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="field" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="my_if" value="&lt;if test=&quot;$param$ != null and $param$ !=''&quot;&gt;&#10;    $condition$&#10;&lt;/if&gt;" description="if" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
 </templateSet>
