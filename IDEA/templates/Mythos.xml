@@ -419,4 +419,11 @@
       <option name="SQL" value="true" />
     </context>
   </template>
+  <template name="nonblank" value="StringUtils.isNoneBlank($Value$)" description="StringUtils.isNoneBlank" toReformat="false" toShortenFQNames="true">
+    <variable name="Value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
