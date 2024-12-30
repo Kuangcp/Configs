@@ -140,6 +140,9 @@ case $1 in
     -bash.python)
         sudo pip install qrcode httpie
     ;;
+    -go.util)
+        go install github.com/dundee/gdu/v5/cmd/gdu@latest
+    ;;
     *)
         help
     ;;
