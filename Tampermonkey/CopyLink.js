@@ -35,8 +35,8 @@
       txtDiv.style["z-index"] = "-999999";
       // 隐藏后无法复制,必须要暴露
       // txtDiv.style.display = "none";
-      txtDiv.style["border"] = "none";
-      txtDiv.style["background"] = "none";
+      txtDiv.style.border = "none";
+      txtDiv.style.background = "none";
 
       let link = "> [" + document.title + "](" + document.location.href + ")  ";
       txtDiv.value = link;
