@@ -426,4 +426,14 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="postMethod" value="@PostMapping(&quot;/$API$&quot;)&#10;public String $API$(@RequestBody $Param$ request) {&#10;    $End$&#10;    return &quot;OK&quot;;&#10;}" description="create a simple post method" toReformat="false" toShortenFQNames="true">
+    <variable name="API" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Param" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
 </templateSet>

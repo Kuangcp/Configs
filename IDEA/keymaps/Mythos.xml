@@ -195,7 +195,7 @@
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="ctrl escape" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
