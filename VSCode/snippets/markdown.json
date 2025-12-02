@@ -123,6 +123,13 @@
 		],
 		"description": "TODO"
 	}
+	,"DONE": {
+		"prefix": "td",
+		"body": [
+			"- [X]"
+		],
+		"description": "TODO DONE"
+	}
 	,"Book": {
 		"prefix": "book",
 		"body": [
