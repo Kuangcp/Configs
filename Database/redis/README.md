@@ -1,6 +1,3 @@
-> [4.0.2](http://cloud.kuangcp.top/redis-4.0.2.zip) | [3.2.8](http://cloud.kuangcp.top/redis-3.2.8.zip)  
-> 直接解压运行脚本就用。改端口，配置什么的看下面 
-
 ## 常用配置项
 ```conf
     # 绑定了本地，其他主机无法连接
