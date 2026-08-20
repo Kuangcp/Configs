@@ -370,7 +370,7 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
-  <template name="sleep_seconds" value="TimeUnit.SECONDS.sleep(1);" description="TimeUnit.SECONDS.sleep(1);" toReformat="false" toShortenFQNames="true">
+  <template name="sleep_ms" value="TimeUnit.MILLISECONDS.sleep(1);" description="TimeUnit.MILLISECONDS.sleep(1);" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
@@ -430,6 +430,13 @@
     <variable name="API" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Param" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="toDateTimeNow" value="LocalDateTime.now().format(DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;));" description="LocalDateTime.now().format(DateTimeFormatter.ofPattern(&quot;yyyy-MM-dd HH:mm:ss&quot;));" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
