@@ -13,11 +13,11 @@ startup_mode = "Windowed"
 [font]
 # 系统等宽字体，可换成 'FiraCode Nerd Font' 等
 normal = { family = "monospace", style = "Regular" }
-size = 11.0
+size = 11.5
 
 [colors]
 # 默认暗色主题（Alacritty 内置）
-primary = { background = "#2b2d33", foreground = "#c9d1d9" }
+primary = { background = "#282c34", foreground = "#ffffff" }
 
 [keyboard]
 # 绑定 Ctrl + Shift + T → 新建标签（Alacritty ≥ 0.13 原生）

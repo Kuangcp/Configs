@@ -6,3 +6,7 @@ keybind = ctrl+v=paste_from_clipboard
 
 # 3. 强制取消：设置 Ctrl+Shift+C 永远为发送中断信号 (SIGINT)
 keybind = ctrl+shift+c=text:\x03
+
+font-family = ""
+font-family = "Droid Sans Mono for Powerline Regular"
+font-size = 11.5
