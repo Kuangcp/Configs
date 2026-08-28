@@ -1,0 +1,8 @@
+# 1. 复制：有选中文字时复制，没选中时作为一般中断/取消信号
+keybind = performable:ctrl+c=copy_to_clipboard
+
+# 2. 粘贴：直接使用 Ctrl+V 粘贴剪贴板内容
+keybind = ctrl+v=paste_from_clipboard
+
+# 3. 强制取消：设置 Ctrl+Shift+C 永远为发送中断信号 (SIGINT)
+keybind = ctrl+shift+c=text:\x03
