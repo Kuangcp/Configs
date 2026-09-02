@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# 可修改为对应的 应用
+# xfce4-terminal /bin/ghostty 
+tmd=$1
+# echo " iii $tmd"
+PID=$(ps aux | grep  $tmd | grep -v 'grep ' | grep -v 'quick-pop' | awk '{print $2}')
+# echo $PID
+if [[ $PID -ne "" ]]
+then
+    xdotool windowactivate `xdotool search --pid $PID | tail -1`
+else
+    $tmd
+fi
