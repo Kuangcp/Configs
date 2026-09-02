@@ -15,3 +15,8 @@ font-size = 11.5
 window-decoration = false
 # window-decoration = titlebar-only
 theme = 0x96f
+
+# 开启鼠标报告支持（默认其实是 true，但显式声明可以确保它强制开启）
+# 如果你的鼠标偶现卡死在 tmux 某种特定点击状态（如右键残留），
+# 可以确保这个值是 true。
+mouse-reporting = true
