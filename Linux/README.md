@@ -42,3 +42,5 @@ fi
 
 ## Ghostty
 ~/.config/ghostty/config.ghostty
+
+但是存在fctix兼容问题 没法唤起剪贴板
