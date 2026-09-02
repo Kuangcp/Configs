@@ -23,7 +23,7 @@
 [tmux配置仓库](https://github.com/gpakosz/.tmux)
 
 ## Qterminal
-> 一个比较好用的终端
+> 一个比较好用的终端, 2025年淘汰，回到了Xfce4-terminal 2026年转向 ghostty
 
 1. 字体: Source Code Pro for Powerline 11 pt
 1. 终端颜色 BreezeModified
@@ -40,3 +40,5 @@ else
 fi
 ```
 
+## Ghostty
+~/.config/ghostty/config.ghostty

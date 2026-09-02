@@ -143,6 +143,10 @@ case $1 in
     -go.util)
         go install github.com/dundee/gdu/v5/cmd/gdu@latest
     ;;
+    -ghostty)
+        dir=$(pwd)
+        ln -s $dir/config.ghostty ~/.config/ghostty/config.ghostty
+    ;;
     *)
         help
     ;;
